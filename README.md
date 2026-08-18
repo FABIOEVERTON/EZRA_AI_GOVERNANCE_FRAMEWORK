@@ -1,1 +1,1 @@
-# ezra-governance-framework
+# ezra_ai_governance_framework
