@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # validate_framework.py — Validate framework structure and completeness
 
-import os
 import json
 import csv
 from pathlib import Path
@@ -138,7 +137,7 @@ def main():
     validate_conformance()
     validate_ezra_control_plane()
     
-    print(f"\n=== Results ===")
+    print("\n=== Results ===")
     print(f"Errors: {len(ERRORS)}")
     print(f"Warnings: {len(WARNINGS)}")
     

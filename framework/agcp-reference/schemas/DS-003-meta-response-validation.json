@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "schema": "DS-003",
+  "filename": "meta_response.json",
+  "validated_at": "2026-08-05",
+  "draft_2020_12_schema_count": 97,
+  "metaschema_issues": [],
+  "positive_cases": [
+    {
+      "name": "complete_v2_0_1_metadata_response",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "negative_cases": [
+    {
+      "name": "missing_baseline_bundle_digest",
+      "rejected": true,
+      "error_count": 1,
+      "sample_error": "'baseline_bundle_digest' is a required property"
+    },
+    {
+      "name": "published_baseline_without_uri",
+      "rejected": true,
+      "error_count": 1,
+      "sample_error": "None is not of type 'string'"
+    },
+    {
+      "name": "missing_validator_set_digest",
+      "rejected": true,
+      "error_count": 1,
+      "sample_error": "'validator_set_digest' is a required property"
+    },
+    {
+      "name": "missing_active_governance",
+      "rejected": true,
+      "error_count": 1,
+      "sample_error": "'active_governance' is a required property"
+    },
+    {
+      "name": "profile_missing_baseline_binding",
+      "rejected": true,
+      "error_count": 1,
+      "sample_error": "'baseline_bundle_digest' is a required property"
+    },
+    {
+      "name": "verified_claim_without_evidence",
+      "rejected": true,
+      "error_count": 2,
+      "sample_error": "'objective_evidence_refs' is a required property"
+    }
+  ],
+  "required_advertisements": [
+    "immutable AGCP baseline bundle identity and digest",
+    "implementation profile identity, digest, and baseline binding",
+    "schema-set and generated-validator-set integrity",
+    "registry releases",
+    "L1-L5 conformance claims and evidence",
+    "supported capabilities",
+    "active governance version and activation integrity",
+    "IF-001 contract identity",
+    "optional public-safe deployment binding"
+  ],
+  "catalog_version": "1.0.50",
+  "catalog_sha256": "e337b72c563009214759fddac875e4874ef25783f8494aee4358359e39d17f91",
+  "schema_sha256": "d9d572a6e9beaa89ca46683875cc8cc606f30b723d9a7a4d9c4453a103265276",
+  "example_sha256": "efcc4e4b5a34ab8f94dedf9d3d00de0820bfba7bf01e683a829404734961387c",
+  "openapi_sha256": "37cc647edfd990a068cfcb623d26ed3763c53298dada83eed99d9c4d1e858b25",
+  "rtm_sha256": "8660278b82aa0f8250418e18ca65918cc2e08fc76435622ead4159cb9c6bb656",
+  "p1_14_p1_17_status": "PASS",
+  "release_context": {
+    "repository_release_target": "v2.0.4",
+    "repository_release_target_status": "PUBLIC_REVIEW_CONTROLLED_BASELINE",
+    "controlling_published_baseline": "v2.0.4",
+    "controlling_baseline_status": "PUBLIC_REVIEW_CONTROLLED_BASELINE",
+    "baseline_date": "2026-08-05",
+    "artifact_lifecycle_state": "CURRENT"
+  }
+}

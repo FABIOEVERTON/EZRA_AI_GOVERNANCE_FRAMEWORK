@@ -1,0 +1,1891 @@
+{
+  "manifest_version": 1,
+  "generated_at": "2026-08-21T17:52:47+00:00",
+  "run_id": "20260821T175246Z",
+  "file_count": 269,
+  "files": [
+    {
+      "path": "framework/agcp-reference/AGCP Normative Statements.docx",
+      "sha256": "cc336645f8a61c416130f96aaa70c31b9c06dc796f14aa88578ff49d1d134401",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP Requirements Traceability Framework.docx",
+      "sha256": "4b24b1ba436e9de70c63c0161265156eeb8fada3ef5ccbfe5c576575328151b8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-Core.docx",
+      "sha256": "f19f9c07af20a23a51e89fd08a560b6f1a53195a0654c60cdfcec08a69907dfe",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-Error-Mapping.md",
+      "sha256": "6c5cd15e1260666da2b7713ea153fb186dceaf8c1e81320f7bf0f8e55530f6c9",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-HTTP-Interface-Specification.md",
+      "sha256": "727ee0d2cf69b7e41320210dec9d82054635fcfdd5c85a633faed886c73082c2",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-Human-Review-Specification.md",
+      "sha256": "965fad7e724d6bd8e6b9f1e4c3fa12ac111207dfba36ad8988d090466dd1baa5",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-Multitenant-Operational-Specification.md",
+      "sha256": "9afdf01625d4bb1348458974d0938af68ac0879decd709a207aa585f9ca134e0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-Policy-Evaluation-Contract.md",
+      "sha256": "f07f0bf72e2e2291480bd62f49d962f42f27a4e0270c3cee1a3d24ad09f6dc28",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP-Provenance-Wire-Format-Specification.md",
+      "sha256": "9de4343acfb0df44ef3750ea86d0dc8fb36d8f43c6f39f8d6e1e71c6200ea861",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP_Requirements_Traceability_Matrix_(RTM).xlsx",
+      "sha256": "1eaa3b77ab54d8d6b8719c104f04c46390846c17229c4f13b137841617c639a6",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/AGCP_Runtime_Governance_Requirements_CR-001_thru_CR-122.csv",
+      "sha256": "40afed58d3571dc01a91704d908b5990d5c5de32c51628c62dce80aa26108c51",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/Architecture Reference Model.docx",
+      "sha256": "bca3a96419c362e550f6683fb1835a57f76a3791b390a0f7ab1140debc8e83a9",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/CR-requirements.csv",
+      "sha256": "40afed58d3571dc01a91704d908b5990d5c5de32c51628c62dce80aa26108c51",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/DS-040-ledger-event.md",
+      "sha256": "62ecc76fb15637a18b2e7f9b1be2215782f834fe6e62ca29ddcb286e696b0656",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/IF-001-http-spec.md",
+      "sha256": "727ee0d2cf69b7e41320210dec9d82054635fcfdd5c85a633faed886c73082c2",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/IF-002-pec-spec.md",
+      "sha256": "f07f0bf72e2e2291480bd62f49d962f42f27a4e0270c3cee1a3d24ad09f6dc28",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/README.md",
+      "sha256": "b0e8bdb5742337ecaaaa13261f13f11b8c85f210fba81a688af178f5d45522af",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/RTM-1.45-format-comparison.json",
+      "sha256": "3ba35bee17347eb9809b1598499c01100130b2507f28ab095e6b8c135a72d1e8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/Requirements Traceability Matrix (RTM) Specification.docx",
+      "sha256": "82fcd9cf6bc953073a32111f09e56c210d4e96374269deea677ea8c5a72b5910",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/awesome-agent-governance.md",
+      "sha256": "87ebffddf23486e5095d8d00893503ad2458589e5df455760de74eb3424acd5d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/awesome-ai-security.md",
+      "sha256": "c46c379dee8fafedc35e45eecfa152e6da82d14cf192354fe4c8c03554468a81",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/awesome-eu-ai-act.md",
+      "sha256": "70977bfe79e790b13292f33a492666722e198785ec28a7b47b9ab4ff6f5cd474",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/conformance-levels.md",
+      "sha256": "5cda6c1eaec160f6007e8e684ef30b72124e66ff170fa64ab7c8dcda8c7c274d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/ledger/AGCP-Append-Only-Governance-Ledger-Specification.md",
+      "sha256": "62ecc76fb15637a18b2e7f9b1be2215782f834fe6e62ca29ddcb286e696b0656",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/COMMON-SCHEMA-UPDATE.md",
+      "sha256": "940a3bc3993064ce2e3b6111630aab3d39e6e5ac09caccd22354aa37ba1cadc2",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/CONTENT-DIGEST-CONTRACT-UPDATE.md",
+      "sha256": "8f2ffad27cf82c5b56c179a27295b3bd7958a906198deaafe8d3516c38daa0d8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-003-IMPLEMENTATION-METADATA-RESPONSE-UPDATE.md",
+      "sha256": "6d5d1243e2a33828895594714c926f0c6dca8d876d045cf6945c43c6a67216f8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-003-meta-response-validation.json",
+      "sha256": "0c0ce6cfe0f13e747519dc901abcd5459604e676eef577888a6991504d958beb",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-003-openapi-reference-validation.json",
+      "sha256": "d5264505cf1dfec1d19481b9524d744d1a780c980afad9f975a67f61d19b8d13",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-003-rtm-format-comparison.json",
+      "sha256": "6990a22ec44de1a8fc9e511e1ad632c9e495219ff9ade534e7dc2cd6d52ee96b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-004-TENANT-GOVERNANCE-RECORD-UPDATE.md",
+      "sha256": "3bf69f46c2bce0b4231ae12e1296b999b3a43a0cbeb778bce4072062602a9317",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-004-openapi-reference-validation.json",
+      "sha256": "34903519be66440e42e80c8e4d4c94486d11540bbdf62a6785591b0dcb5dd3da",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-004-rtm-format-comparison.json",
+      "sha256": "7cb6d200a01218c6e075821506f8c3c1905ebda50e296b2c58b8f8883a0d76d0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-004-tenant-governance-record-validation.json",
+      "sha256": "2151db58cf67d25ed9a397eba9f1cda0496908172ddfe580d8010e3a0d94b676",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-005-POLICY-EVALUATION-MODULE-ARTIFACT-UPDATE.md",
+      "sha256": "1f26c0e525dad4734d403f4efbb0097db74719af2f66417c2206ee8eaf9504e8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-005-policy-evaluation-module-artifact-validation.json",
+      "sha256": "5e92561aa8a0d7e96f464b80f9dceaca08fd2f611cb501c102ea5ccf2c0b93f9",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-006-GOVERNANCE-POLICY-ARTIFACT-UPDATE.md",
+      "sha256": "903ae59a80d7336a82b0ae42ae0a7353b663efb6f1cf4319c04a9fea16d95fa5",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-006-governance-policy-artifact-validation.json",
+      "sha256": "715739393552e01247b7398d1371c7bcbf079b5650f9850b7d23bd6f69f6261f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-007-GOVERNANCE-CONSTRAINT-ARTIFACT-UPDATE.md",
+      "sha256": "3052c67cff790033b24103e42944a08eaa5f6ce1817c9dbfa52bab713108ceac",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-008-GOVERNANCE-INVARIANT-DEFINITION-UPDATE.md",
+      "sha256": "887a89b1582c5144aa1ef5dbe5cc41cf9936f65b92afbc31f2b59a40fe5cbf52",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-008-governance-invariant-definition-validation.json",
+      "sha256": "0fc11649a3d6a75d25ff9f7adafeed81e09483124bdc5f99846000ecd5d60a8f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-008-rtm-format-comparison.json",
+      "sha256": "4dd33aa960a52f1544281352fe834f27c8a0f4ed4bcbfacfe0e22f8a5d744c5b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-009-GOVERNANCE-EXCEPTION-ARTIFACT-UPDATE.md",
+      "sha256": "41f10bae26e1f63c85784ea2b34457eba26f978125a2638b1f77d35586a79ae5",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-009-governance-exception-artifact-validation.json",
+      "sha256": "b6bc5395ecf8a0a407d8e505cac6a47efb040762d7c3d98e34c85b5d63afaaa5",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-009-rtm-format-comparison.json",
+      "sha256": "c4df8e271316466d5db60fb6eb592f567a3397bf3b217480d6a345fd8266614d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-010-GOVERNANCE-ARTIFACT-VIEW-UPDATE.md",
+      "sha256": "69955f799d184454385a09e7100bcb7b39146f0ab2a2882c9bb03f1d0ffb0f96",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-010-governance-artifact-view-validation.json",
+      "sha256": "ce24f3a8658f47b3e72b5bd9c2a1eef6a77b4d5376ca89df9bcb06c21e78ee2f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-010-rtm-structure-validation.json",
+      "sha256": "eab47a862a73de0f7dd8e7d9c743d5091b77a582c12aff7f9090323f16fbb1df",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-011-GOVERNANCE-CONSTRAINT-EVALUATION-UPDATE.md",
+      "sha256": "445e142e583f083d709c86872c91dec763f83947f1bac94562ecd9c52fdf6106",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-011-governance-constraint-evaluation-validation.json",
+      "sha256": "8cd3c3c7e22f391543b248b0bfd9a484f40576af5675b5256707a0bc75af93fb",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-011-openapi-reference-validation.json",
+      "sha256": "1b44d497aac8295a0a7a536cbb4551c93124474e3c515a7c5f9289ae07e10953",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-011-rtm-format-comparison.json",
+      "sha256": "b1f12506a0c3523f10804120de7d23e102f52d81d611e7ebdc1b897dd902041f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-012-GOVERNANCE-INVARIANT-EVALUATION-UPDATE.md",
+      "sha256": "0b72e143aad9850baadc9c4c78c52908cb75795cfd47601a3cbc3044677e62c0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-012-governance-invariant-evaluation-validation.json",
+      "sha256": "d599b86d38760577305ce1d100716d5dba1951652fbf615af3cb37fc6128114b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-012-openapi-reference-validation.json",
+      "sha256": "0fbb481d285e48554d01f127a047ac59f5369921e96caa5d9ea046a2b61c8a7d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-012-rtm-format-comparison.json",
+      "sha256": "f128e2b055116bc20abc0773e868e827da0fe3ef499de29de736ef39450d906a",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-013-obsolete-metadata-removal-validation.json",
+      "sha256": "935bcc9d86faf621b82681ba1d6642150492b902eca6372e67cf019346cc149e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-016-RETIREMENT-UPDATE.md",
+      "sha256": "4eb3b03413b9128a0652584c2b0137f25e12ea2168355b4df7318ace3d56f4a3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-016-openapi-harness-validation.json",
+      "sha256": "60193da90d00947c2cdb3ab76a06a08f7edf5a505f16b37f22ebafe87fa9bbeb",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-016-retirement-validation.json",
+      "sha256": "d448c8b2593124a25439c309a5463b59fa00d4d3df99154821da151c57291606",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-016-rtm-format-comparison.json",
+      "sha256": "05985e2deba6f8b2bfbd04ca8ce2e4524e46b75f8a5e7c463db45fe4136368ce",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-021-GOVERNED-ACTION-PROPOSAL-UPDATE.md",
+      "sha256": "a9aeb4be061cd3986c376a075a93fcbd48c9b56166e8c159b65d45da25dc93ba",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-022-GOVERNANCE-CONTEXT-ENVELOPE-UPDATE.md",
+      "sha256": "7483f9f68b0804b1ad3f4b5d6b6e63da0f696902e5b060bc3570c753045f8f44",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-022-IMPLEMENTATION-REPORT.md",
+      "sha256": "5b71812d158ce7f9de18beb39f44f032571355908a29bdaf689f67d7bf1d9509",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-023-CANONICAL-STATE-QUALIFICATION-REFERENCE-UPDATE.md",
+      "sha256": "b34045ca6eb60bfae99c289b7b179b273111c16a1cf9aebf2cc45de2ac0a9fc4",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-023-CANONICAL-STATE-UPDATE.md",
+      "sha256": "bc857053bc9981bf286da3b4a685f41f49194f36580ddce2380723b9ee3de90e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-023-canonical-state-qualification-reference-validation.json",
+      "sha256": "06d74238792ec108691e1f887e5990f0f136dc14857f1096649eb2182f199471",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-024-AUTHORITY-LINEAGE-UPDATE.md",
+      "sha256": "143144c096c09e77bad2de7349e681f02ce6b3ea98bd207fee15fa876f82cb25",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-025-DELEGATION-ARTIFACT-UPDATE.md",
+      "sha256": "12242189fd8280174ce3d8156d24431ea63ddffe38b09e5817ff02d46396cc86",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-027-GOVERNANCE-RECEIPT-UPDATE.md",
+      "sha256": "f319fc7baef18c8ddc1ab580a83af75c0f5e04762661ac3ecb7a5c2db9a676a0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-027-governance-receipt-validation.json",
+      "sha256": "f1a1a2b55fa48119dfc1129b18232b633e84adf3dc6e68d5679b55617a770f38",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-028-REFUSAL-RECORD-UPDATE.md",
+      "sha256": "71b6d0a00f8beb2242254b63abb4cda05915af550d365878a947f78cf1bf37d3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-028-refusal-record-validation.json",
+      "sha256": "248ce33a5d5eeeb1b84c01cf7047002d36a83f889ef0daab55e819b029d048bf",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-029-ENFORCEMENT-CONTEXT-UPDATE.md",
+      "sha256": "036d7b6f3698dbc1ff5c2bf16499dd71d61c03bc5f9cbd86b25258ae4be1e342",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-029-enforcement-context-validation.json",
+      "sha256": "d5bf91f41acf3c2aa0a806e204cf4cbdd8f1fc1693e8de851481306e95ec5404",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-030-GOVERNANCE-BINDING-VALIDATION-RESULT-UPDATE.md",
+      "sha256": "be1ceca772d3da4414f60570f58ae86e326b7d2f55b27dbe8189eb1ad8bd4117",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-030-governance-binding-validation-result-validation.json",
+      "sha256": "5199bd3deda9fc43c147fdc1db0667598d62181245cab936195adaf6ddcc6709",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-031-RESULTING-STATE-VALIDATION-RESULT-UPDATE.md",
+      "sha256": "303756d325183109af26ba215f337328495834b00880a59f559c338fd37a713d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-031-resulting-state-validation-result-validation.json",
+      "sha256": "6699822a5d618eed3f97826156b290b6f04b4f9b5fd08b67b4c682520744a3df",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-032-STATE-QUALIFICATION-RESULT-UPDATE.md",
+      "sha256": "734ae865e153df5617e3776b72e24c96035914fb1c5781c8581e1a0167984cab",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-032-state-qualification-result-validation.json",
+      "sha256": "c00f4244872247a4d97cfc0339abba11d3cc5b42e174bd2b450972fa84912eff",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-033-EVIDENCE-QUALIFICATION-RESULT-UPDATE.md",
+      "sha256": "a20fdf642743f02df9e0996be6be7885aab0053a62735b4c4485df6e77635e3b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-033-evidence-qualification-result-validation.json",
+      "sha256": "55aef3dd135df8578491e61dce040a5d5bc806cc4541a5bf588803dfea5cc372",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-034-AUTHORITY-REDERIVATION-RESULT-UPDATE.md",
+      "sha256": "1dac712f600f0a81b2e9c3bc40f3ff334649bfdbda9c35ac4d3de26e5e66ae0f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-034-authority-rederivation-result-validation.json",
+      "sha256": "5f0c00787e682cb6a9bf8d08c3eb02ac5a30fe690901f8124a0de405553ed854",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-035-BIND-SET-UPDATE.md",
+      "sha256": "873491e6a159020b4f81d87810246c11d6e84f66488b7766392b6c09669b9ccc",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-035-bind-set-validation.json",
+      "sha256": "ab33339512063a8257e656514f4ec32ef5e11bf8c71f6c61aaad4d13e86df95a",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-036-GOVERNANCE-DEPENDENCY-GRAPH-UPDATE.md",
+      "sha256": "a26b7a2d3b91a0badd1cd7e1840fdc915860454ec65fafeff9f7bb00a484ce72",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-036-governance-dependency-graph-validation.json",
+      "sha256": "1b6fbb9a1337fbba8eca4e8a9aa0f04d50e63099d837fea0ac02abd6c2b29549",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-037-DETERMINISTIC-ADJUDICATION-RESULT-UPDATE.md",
+      "sha256": "a45cfadc198c8dba33444b2712253dfc04543505c688b05eb3e797781b46ca5a",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-037-deterministic-adjudication-result-validation.json",
+      "sha256": "45a832e8c3d97dabc5e11422ea4069ae191794433fa24b7b2c14c50605ea6273",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-038-GOVERNANCE-LIFECYCLE-RECORD-UPDATE.md",
+      "sha256": "df3c254e0d5c6cf63fea45395d89cf3ea82c30362dffa45d44c4f8a33015387f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-038-governance-lifecycle-record-validation.json",
+      "sha256": "56b0bad2b0d02a8daba1a8c81567802d907e2c249e20594681d6f0a1ffe30e18",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-038-rtm-format-comparison.json",
+      "sha256": "eba8424bca635b44daa6e8921a052254c32fd37a24ae3a776577127258f4b67e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-039-CONTINUATION-INTEGRITY-RESULT-UPDATE.md",
+      "sha256": "017779f21550f4f310079054a413893f9427a8f37ba95e7e0ae8e47a9934da17",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-039-continuation-integrity-result-validation.json",
+      "sha256": "ba436785996f713fbb2c5af7439dc2e54570d511e385bb9e4a0f35c12423481c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-039-rtm-format-comparison.json",
+      "sha256": "fb11934765928048f1cf5aef6c1ebe32755464df6b8ab9a08623822dbbacf397",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-040-GOVERNANCE-LEDGER-EVENT-UPDATE.md",
+      "sha256": "647e1d076841696c3accec4fa5ef6ec7a7eff0b2060aab2942775bf049068179",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-040-governance-ledger-event-validation.json",
+      "sha256": "4ad416429a7b641edb68d8fb6756f52030a941975fd81516c948c333d5c6d23c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-040-rtm-format-comparison.json",
+      "sha256": "a2f4faa33169cdff046509f12e7693d72077ddf823c9f8dd7a5de67fe15da744",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-041-GOVERNANCE-CONFIGURATION-UPDATE.md",
+      "sha256": "3ed7af412ec91baa9f1dbc50414a61694fe489f143a9ef1ff42e9bdec9cd216c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-041-governance-configuration-validation.json",
+      "sha256": "9fdedcc2a3bd37336df29284942b5fa297302ee9cdfcf3514bd5e51cbbeffe87",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-042-COMPILED-GOVERNANCE-ARTIFACT-UPDATE.md",
+      "sha256": "46996b0ad4d35454cd5abddde6602282a81fc119102ed7beb1d83d353423ee74",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-042-compiled-governance-artifact-validation.json",
+      "sha256": "1a3c10d722f8a6dd59d0a74f6d42f75b1843291b929f8a3094dd300f91ce2015",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-043-CONTROLLED-GOVERNANCE-ACTIVATION-UPDATE.md",
+      "sha256": "05be3bef15acb6c5ee26860ffcd6c33a46c2d3f023687af9ea6cecd0ed82d350",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-043-controlled-governance-activation-validation.json",
+      "sha256": "144530e1fac178ffd9a8ab10ffbe5d3d48d9a11701237830a2b882d8d2bf4e12",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-044-REGISTRY-DOCUMENT-UPDATE.md",
+      "sha256": "6b701f1514e39db9cf6698b0e3441ae26fe1fdbda106fd01325c081424c17873",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-044-registry-document-validation.json",
+      "sha256": "050255c4e5df3f4f7a8d621b5270710df12ca9cb8642e4c137fe940d6809027c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-044-rtm-format-comparison.json",
+      "sha256": "0bbe55b2e9ef1d31eaead4e6c0ca3efb014fa995c192de01c86d237af6ce3d9d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/DS-045-GOVERNANCE-APPROVAL-SUBMISSION-UPDATE.md",
+      "sha256": "048aaff8f72518d20c4c5a99252247d26254e157638cc06cca1461464dfe7770",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/PROPOSAL-SUBMIT-REQUEST-UPDATE.md",
+      "sha256": "eabea2da51f242e5938c14c71f30159f8b9760f74f71814b99195e90ea25f856",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/README.md",
+      "sha256": "c03187e10a549d3c9b6a531f6b7f42f28cceafe8025fe379aff3e09f735e4230",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/SCHEMA-CATALOG.md",
+      "sha256": "da385acc7a161349fef58c1ff7aa26e95d8ac1515e4b86e6f5d1c7a262cac3d6",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/STEP-5-WORKFLOW-SCHEMA-REFACTOR-UPDATE.md",
+      "sha256": "a3af64f5e8e091e4265307bd49e6b4aa7db1a0c2638eeb75c770a18ea59fae13",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/authority_lineage.json",
+      "sha256": "f4a898d138d19785057ececfef9e6bab438539300724c43bd2ef96e5bea0b72f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/authority_rederivation_result.json",
+      "sha256": "ad4db7436967a7c8c1e510eddd7f4bea4745b8b1575fd5a53745d3c00b2a23f8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/bind_set.json",
+      "sha256": "d98a575bec9588c47b03438e7b93316e0eba18a11edf41cafe943ca14be55eac",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/canonical_state.json",
+      "sha256": "677d84bbef278287b75a995f221c60c8bbeb7aabafce19b764cefa1ca5c62380",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/commit_boundary_request.json",
+      "sha256": "8f50e407cb15729f0845b4cf4ca6aa923a5f071c0522d39c4553d830ca273394",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/commit_boundary_result.json",
+      "sha256": "94cfc5dc8f6b3a8170e638a191abc7f46e0924a44d15c816a7be095660a24c30",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/common-schema-validation.json",
+      "sha256": "0aa0969fa08f8eb1738f27227214b752dcf479912007a544ebb544f541343551",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/common.json",
+      "sha256": "04e941f373c33df16431382be6f44fc3c0688615aa0a5e9a908ff21dad3f204d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/compiled_governance_artifact.json",
+      "sha256": "5da50676019e44e7a90b73ac383cf1d021601d115321881f8f29e03f2c9d68bc",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/constraint_artifact.json",
+      "sha256": "0b8fc440dd6e4fd204d29f27f8c5e04cfd0bfa75bf951d6d61dc0da5d29e763b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/constraint_evaluation.json",
+      "sha256": "8353d29e3e80262bee2b38c72ea8893c651f63be8ec552311d9956660469032e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/continuation_integrity_result.json",
+      "sha256": "f4b3aefb86b45f8479635b058dff0a26d8367e8d4b1eb013a18ddd336e335b62",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/controlled_governance_activation.json",
+      "sha256": "02840dea425e77a6be5b30e8185b8ec31ef08e72b2991441990e14badaea1adc",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/delegation_artifact.json",
+      "sha256": "7ebf7aea68f1b81afd018cbcc0eae09f6820e4faa989977c57ea3142ad372998",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/deterministic_adjudication_result.json",
+      "sha256": "38262da8d98899480706d43653a5dc7a65b4145b437532afbaeb5dde2b85eb3a",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/ds021-governed-action-proposal-validation.json",
+      "sha256": "e0bb9e64002ce2bad923b40177394389475b1389395b114609699713145c9335",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/ds022-governance-context-envelope-validation.json",
+      "sha256": "f3a3909f2a20a5dc0f9d76a7b37bfb213582a7a7a5f02befbbb144fc2cbc0796",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/ds023-canonical-state-validation.json",
+      "sha256": "332be5ef6efce9a90daebaaf8b9227690a54afdeeeb5021958c9ef1c01ab5579",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/ds024-authority-lineage-validation.json",
+      "sha256": "8c3b2942b76dcfd3383a07e1aab2526b6bc3c4f0549a2523676006ba09238a1f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/ds025-delegation-artifact-validation.json",
+      "sha256": "92e862856962574f8dd4bcfebd43641c3733e1a4e3fbaaed3494e5af96cde7fd",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/enforcement_context.json",
+      "sha256": "ec6b2f9711c9aeb46750fc156051297040d61b30bccb3641933f1482da338cca",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/error_response.json",
+      "sha256": "1523cb73d1c8c91906c06ec52476d75ec7bb8eb28af61caad7635b2fee1ef766",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/evidence_qualification_result.json",
+      "sha256": "848bf6eb2cdbb78a33b5a4c0f3ae4d6f4d4acbc23fc15b0ada338cc55d536ce3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/exception_artifact.json",
+      "sha256": "f456adcaddcda034e75a22272a63f1457fee079a6c7db63c3ee4dd8a58c031cc",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/execution_authorization_view.json",
+      "sha256": "f7d8b21bfb28d2ce28fd1fcb3feada1e4b92a7494f9a1bbdfddafe0faa3e0485",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_approval_artifact.json",
+      "sha256": "52656fc18ea4a4786aa62f16ac80426261f8d370c14271559fd7d9cf8d740625",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_approval_submission.json",
+      "sha256": "412794ecf4e5d797a7bc637b0ba3b259b72dabea6f9bae3d1744327cb5ca863b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_artifact_view.json",
+      "sha256": "b5632c0bce77a7dd7e94f42850844ae086ac360c7546d55ebf038424b0316f0d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_binding_validation_result.json",
+      "sha256": "59d34233ad865a0194be6f8c559c62f27aae8c56c5f4cd38621ffffb9b1e499f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_configuration.json",
+      "sha256": "1af7552f0e9c8b8f379a157c9680d0f11c5f59abb6e07757fae2e82b4fb1ad03",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_context_envelope.json",
+      "sha256": "1bd353d10c578a338e793ea86388372d922872eedbd3670628173b444164c1a0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_decision_result.json",
+      "sha256": "a1f8fd07f742e89a73aee4d682eb79b4ced48ef0a500b76d112011a7a5bc1347",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_dependency_graph.json",
+      "sha256": "439c23ff76174ffa848605e5f5345bd49f4b5b4ce72319e2d41cf26dc516be20",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_evidence.json",
+      "sha256": "fa73a433fa0135b3ac804086fd591617f6789aa8b4843e95429ff05de31b5aa3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_ledger_event.json",
+      "sha256": "97e1d8d857365e1ab3a4d6884949cea2d4d0c528367c7625bc51e4b4ef0bf063",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_lifecycle_record.json",
+      "sha256": "c53495168585e86d15eb0f4adefb88b82a09ad8cdd96e44c05b227fddde0aff8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governance_receipt.json",
+      "sha256": "3b39c50b75140a36992ff7962b094d91dd12e05b71dbd0ae307a8fb861f3142f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/governed_action_proposal.json",
+      "sha256": "d141c8e3bf9dceb1456afec8f4cd3fc214d8c07c0160d676d54c1471be30101d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/invariant_definition.json",
+      "sha256": "5a099ae3b21f7094fc2bdc8c4dcc3318733d0ef42b9c267faf6428a78d90bcac",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/invariant_evaluation.json",
+      "sha256": "da1d3c850a79e66f50e88e4193528cbc669bd411973513a43c6b24f2920acafa",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/meta_response.json",
+      "sha256": "d9d572a6e9beaa89ca46683875cc8cc606f30b723d9a7a4d9c4453a103265276",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/policy_artifact.json",
+      "sha256": "48aba64b03d02280cfdc4cc377440bb63bcb3089884697440c00df99ee95de93",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/policy_evaluation_module_artifact.json",
+      "sha256": "391efa65a1364fe83f8ab8f73c1e6cb594820216fde6768c2ae89a2fb574b502",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/proposal_submit_request.json",
+      "sha256": "b4d125ca8bf2569b30b020fc304b145a0d20fc0253d52bb5818768b2c3e18883",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/proposal_view.json",
+      "sha256": "0c5598297d3bcd233289054add5b8da2430e3b23e342a3dc38ffc6f36902baa8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/refusal_record.json",
+      "sha256": "69b7336d93976190c134b1c9459dd8ba5964ce2f40062095831707607177d991",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/registry_document.schema.json",
+      "sha256": "3d599604e0027fbd42d4734d87a2de1f7b51802ea9f5d0289f9969c1a0facf4c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/resulting_state_validation_result.json",
+      "sha256": "058523ee4755b94e94b8a243dc2a8ca8003b7a0e4c58121af01daffe7245df6d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/state_qualification_result.json",
+      "sha256": "2a540ebc37c18dc65f769daad00a8cb62a4325f4099c92250feae489d4316e17",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/tenant.json",
+      "sha256": "c2c3b62db212ef9405a56ed0bc7164214278a4d1e0d8265ceb82173a122f3137",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/catalog/schema-catalog-validation.json",
+      "sha256": "0cdc8a0e24a4f161674b381686b41d41f7b1dbb720aa2ab4b9cdb8a427175cb3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/catalog/schema-catalog.csv",
+      "sha256": "f03a372c877385b04c9df170e19844769984f8c9af1d008d78735ddd41b6e8df",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/catalog/schema-catalog.json",
+      "sha256": "8bc90c750fd29142016f41300e6436c6a8887a781e058af1f95d2a419b4cfe79",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/README.md",
+      "sha256": "28abc7eb84123528a8126ecb41f15063b446e89f01e639bbb77be191c884ce65",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/common-content-digest-examples.json",
+      "sha256": "335d62b3e52c0844635c26a9eb97c48242d0d62f0d7fecbf7259264229e0f777",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds003-implementation-metadata-response.json",
+      "sha256": "b86823c9c7df4ba95999aad30e96c4345ae5cb075fcfa1d2e16deb176719a3b1",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds005-policy-evaluation-module-registered.json",
+      "sha256": "0c7fd9c1f7277097b600f58ae38498c6e73f8628a4ffed412459d370f74820ab",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds006-governance-policy-registered.json",
+      "sha256": "898d00b2b113ee8e407c8492f9ce15deadd33dd205d24cca1a1a7b1b072f3a00",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds010-governance-artifact-view-registered.json",
+      "sha256": "7d696d6f439c078bd8ec8217fb79bc8cdfd43df4f8257547095e8613ad16958c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds011-constraint-evaluation-satisfied.json",
+      "sha256": "42f98f4d1c71ace9252382f7c2ce0fa139f02e2ccd7e0a2446f20b48f1739a1a",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds011-constraint-evaluation-violated.json",
+      "sha256": "d869be484c6e90884bfc6cb5df50f3463ededefe804af702aab3874a7035c011",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds012-invariant-evaluation-hard-violation.json",
+      "sha256": "43ed426bd1cb5ba21e7a62663c0c4d23002085a66fb3999b15c2f8c92e4f0d4c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds012-invariant-evaluation-preserved.json",
+      "sha256": "09e0a96a40826ca5d4414f9d38f19b8049ba22faecd2391e8e18debf23bbbcf2",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds017-execution-authorization-view-authorized.json",
+      "sha256": "79fa623b16335647b460c04ce4be23f4554a728e3f90c664db4a7fac62740dc1",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds018-commit-boundary-request-single.json",
+      "sha256": "a0617f170e636fc38cd98cb27cc077de6c777b28d73f9034c64a383e7b41f816",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds019-commit-boundary-result-refusal.json",
+      "sha256": "788e1554c2d12f0130c1a526e141521c9a3ae95defac2445bdcfdec2bcb9531e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds019-commit-boundary-result-success.json",
+      "sha256": "a1def8918fef6514020fd1ab576b62515df9271a95913e3aceee585e7d14efe3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds026-governance-approval-completed-quorum.json",
+      "sha256": "0384d1a96bdcacf27b288767bb4898e9390ea8cd65eb1cb54b66aa56f24105de",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds026-governance-approval-partial-quorum.json",
+      "sha256": "29fe67a6d8fde8da31a80a9aaa8896c60ea5743d7ae1cae0cd1a5cb1980e7625",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds029-enforcement-context-admissible.json",
+      "sha256": "d5beace27d2cb5ebb677457b6574861323cac58452319e266c8f252e84b14d93",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds029-enforcement-context-prevent.json",
+      "sha256": "55ddca5eafdba0cb4138a46a0207abd5f3b5b4f3c6b5a7a3b69b0f775edc0163",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds032-state-qualification-not-qualified.json",
+      "sha256": "c17ec5785d396ed37c7d80550751c930b667fb0278aec1250dc3314019a7b0bf",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds032-state-qualification-qualified.json",
+      "sha256": "5abf20255e1672b79e9e94217fcf0852ff06dc773763b59679196b2a7ebf37d6",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds033-evidence-qualification-not-qualified.json",
+      "sha256": "b9ce469df3eb2cc63e8564c28d17f2a852c6e1035eb7392a597e3c8dc0e18c2c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds033-evidence-qualification-qualified.json",
+      "sha256": "e3a2801b8200439b5257460feeabcaa8a17febf645bd3faa623cf6bd204d37a8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds038-governance-lifecycle-authorized.json",
+      "sha256": "2ad3a9d62b912643926483e2732a7560265dd0adf98d9d0f53066ff4a43e5a67",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds039-continuation-integrity-degraded.json",
+      "sha256": "9be247a3f7c43d21286c867fcd3dffa4965f4146edabdb93d8283403723b187e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds039-continuation-integrity-recovered.json",
+      "sha256": "8b414c5b024d75a8573fdf429f1ab0811465e3ee3d95f7cab8d07ee1b2e4fccf",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds040-governance-ledger-event-genesis.json",
+      "sha256": "409575ccc2655883314688ae84f2057e2e18813ec65b1e7cb15174f0f3ebad0c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds040-governance-ledger-event-sequenced.json",
+      "sha256": "d266a0ad24ec6f83436e56a1fa8bf384f9b01f9502a44e51eb54d49820f6a01b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds041-governance-configuration-active.json",
+      "sha256": "05cba077de4af97283ceb6b89d557931af61744fb6d5c0195fc959ede83cd940",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds042-compiled-governance-artifact-validated.json",
+      "sha256": "2b55f635d920eaafe42ecf02fffb7ccf0477ca52dbd898aa5b9a664c2f86630b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds043-controlled-governance-activation-activated.json",
+      "sha256": "d45ed40ee2274dc375033282e5537b752c33601771472448209573f0b4dcb709",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds044-registry-document-capability-example.json",
+      "sha256": "e510bab7f528834a464ba8e965618dff91edfae5cc9a240edaceef0bfce3b683",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/schemas/examples/ds045-governance-approval-submission-valid.json",
+      "sha256": "9b0565c40f482ecd1ee58bf21ed873ad01c59d2a8a2f228784b7619239b40714",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/AGCP-HTTP-Contract.yaml",
+      "sha256": "6d0eec2bb72a5206cd3e0dde90e58062335a568bce15765f03e9653ec8cf8314",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/AGCP-OPENAPI-V2-MIGRATION-UPDATE.md",
+      "sha256": "af9f57c0360b77e5e7e706a96649d53c329d36daf552db1f543cc52b9ddabbf4",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/AGCP-OpenAPI-v2-migration-validation.json",
+      "sha256": "879f3e4d0560d106390335df69770e9fd59538dea51ba8f28fb216b8edce50b3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/IF-001-rtm-format-comparison.json",
+      "sha256": "0fdc96202b035031f8f547ec2852cd1ba54bdafe15f82957790b75bdea7ca198",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/INTERFACE-CATALOG.md",
+      "sha256": "bdef27a36edb72a8ea7492233b33a09aa3efa7646cf00a8753d17faf2b5510f9",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/interface-catalog.csv",
+      "sha256": "de87bb6c7308bdd1bd69d300fed63987823ef974a43a522410bcde4a054b1583",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/interface-catalog.json",
+      "sha256": "803b1614a0cd0004763879bf0249f809e6a2e8d2a6c8f0d0db2e0ec240a9b364",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/agcp-reference/api/interface-traceability-validation.json",
+      "sha256": "1335d19abc135696ed04004e277849c15d7311250201c1b5200369cecaa31971",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/audit-trail-format.json",
+      "sha256": "1b3fc89695ce7217c441f4fb0b394f85726417cbf38dc5aa7a3b880daf9b0aea",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/commit-boundary-request.json",
+      "sha256": "30584304374f4bce783df1fdb452d0616bbd03b07afca7450c648c3c0b7714dd",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/conformity-checklist.yaml",
+      "sha256": "df5af5256fc1bbc77833616cbad56711f7f67d8a4b7cd19df36cde50e0f1a6a4",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/content-digest.json",
+      "sha256": "fcb3302ffb320c9dd5f20361fc5ab195d3827c0b34f246ac98c155523bb31c76",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/evidence-binding.json",
+      "sha256": "6265faf4ae8975fe04fd259e27ac988d1259dadfdb81c547b45542f3fd264ab1",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/governance-approval-artifact.json",
+      "sha256": "a92e38008f85bc31b3ff5004b007f68241327c77003e585d0dc9543c8855ce42",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/ledger-event.json",
+      "sha256": "e3dc75bac62a14d4cdc023a2fe78459a18df5c19a981e151124ded0eadaef7f4",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/proposal-submit-request.json",
+      "sha256": "2f316474b6559cd9affb058754528913bf43c0f14114ed5eb8f1d552437397ca",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/provenance.json",
+      "sha256": "df9594628a52cd16df6de18c6ecfbe4c9791142a12d3b772a5356b68efdf934b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/templates/risk-assessment.yaml",
+      "sha256": "2467847ae97e2a523df4f5ef802e1e6eb9c927b728cfff3f4742eace000649e1",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/mappings/aigp-to-agcp.csv",
+      "sha256": "9143b0ebe2974bd233647142571e81bcf5313a570711fe49e74dc937748260da",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/mappings/eu-ai-act-to-agcp.csv",
+      "sha256": "13df3363329db11d55a1c5b3a5353ec409485eb06ab29ed917dc8fa3c19a032f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/mappings/lgpd-to-agcp.csv",
+      "sha256": "13ef9fb349474fada36655c8a76359702585d1f4f9d134273f010885d71fb70c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/mappings/master-regulatory-to-agcp.csv",
+      "sha256": "d802b7383b9cefde5ac7f13962fd7d78849303d8a8dadb23dd72a837a78d4e0e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/mappings/nist-to-agcp.csv",
+      "sha256": "b6d63b9d1ae89ac8d62df4d4455eab442cf7718d3ab2cbe069a8e7a8d5795753",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/nist-ai-rmf-mapping/SKILL.txt",
+      "sha256": "268da75c45a34187b76bcb417c5f6141eef356a6b793bc53254b7abcb0e95cac",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/nist-ai-rmf-mapping/govern-controls.md",
+      "sha256": "136d5b96cf9c3bd1a5979c566d4ba5bd485d96650cfa1cf8b8e47d5897426829",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/nist-ai-rmf-mapping/manage-controls.md",
+      "sha256": "d68edfd6a824ad9530085ddb5a09fbb7e0cc055291968c99627ffc7ae1d4df2d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/nist-ai-rmf-mapping/map-controls.md",
+      "sha256": "ff6944aa89705f6070e2f93b66310c9514b7a0f9ace1868713d5f85228024c53",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/nist-ai-rmf-mapping/measure-controls.md",
+      "sha256": "da29db360670246a63c7498588c6540c4241a25db3f9f8c4570b5b00a91a3a0e",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/nist-ai-rmf-mapping/source-mapping.md",
+      "sha256": "83f853ff28f0d2eda777d89e1341092f317bbafafd3d7fbf43a95922c74f56ac",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/SKILL.txt",
+      "sha256": "817d9cca80060e50bb8e58dfead93705a5b8b191634466d0907e687c0e0918bc",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/conformity-checklist.yaml",
+      "sha256": "f2b6583ffe9b929cf31ed9a7940bf832bdb05af92d45ac8ba6d9758eeadf6769",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/gpai-obligations.md",
+      "sha256": "4127fd715a42813cce12ad7233bbf5054e75ecf5026b90ae96e97d7641033d92",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/logging-requirements.md",
+      "sha256": "e8ac0d86dbf388f1c1c85341d150d7f61b391e1d6c8c2fa0f2217a09e5e56eab",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/oversight-procedures.md",
+      "sha256": "235f53f10b77e8d8009295e5338ba94483e47c1d220d24e7f10835c4211e4527",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/risk-classification.md",
+      "sha256": "17ee7c5196ccec234ebb58ea2161657bf1bcf1dabb90100068c8277b52306723",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/eu-ai-act-compliance/transparency-requirements.md",
+      "sha256": "da7e08d6848517837eea53cc68d2a1948c07d941b05470f450fb7d575373369c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/SKILL.txt",
+      "sha256": "56fce33d51eaa6c9a242bb92e20223197d1c5992c6352b9cd6ab4395db9bb5ba",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/accountability-matrix.md",
+      "sha256": "c5aa0629d8e02dabca42046c4ba52f0b444f8c3d631fa68d82c0b41f59e7bcf5",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/deployment-gate.md",
+      "sha256": "e78e65f9301d6edc836deca606a1957416a4d9deb8246bed35b49815f3769754",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/development-gate.md",
+      "sha256": "e20cdc800696cf4f2e610be631b9a13af6d40b7454e912e16ea5112d75ee78c8",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/fairness-monitoring.md",
+      "sha256": "e26ff59afadf3346b2276e06fa5f8c1bf7b1a40f488f8d8df3f7570c7000c6e1",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/model-selection-gate.md",
+      "sha256": "d001049fb4a91bcb226acbcc05e942e074b43efcab43992e9b3123ec78a30cb1",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/privacy-by-design.md",
+      "sha256": "58f0c78edbc37de62dd1217a27813d16731b2afe3769112675cad4d9b07b44b0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/risk-mgmt-lifecycle.md",
+      "sha256": "e919f554ed52c5c284a2e9b37982a14e290070661cbed271bcd974a72aa282b3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/transparency-docs.md",
+      "sha256": "70187a730c5a1e6c161be480bc3da7a884c1524308bd2d417d27195202579c9c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/aigp-lifecycle/validation-gate.md",
+      "sha256": "8bd4ca06496c473dce122dd87c9a79c984859f25ccf40279335c95868174e223",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/SKILL.txt",
+      "sha256": "9eb6121520f00f7c56a7a799c0d3bd7d6604a143894d11a54a04e349f0e9de56",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/cross-border-transfer.md",
+      "sha256": "ed622dc6a4054017e85f3394baeb880ea3293dec2b9e9775c8e1b3ae46ecd030",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/data-mapping-template.csv",
+      "sha256": "630daa6b750a03d7ad4ceba4f9206e141b2d08cf76c1dc6e86abc21007cfe88a",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/data-subject-rights-procedures.md",
+      "sha256": "704d25b21641b4f5ebae742369c53f08ba57e12affe929b42434c8831cf99500",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/dpo-procedures.md",
+      "sha256": "5637fa63b16e469109880de5b1b4757f7280430838c0a29218cf83f0c348aee3",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/incident-response-72h.md",
+      "sha256": "7d3c8bbd8c654fecdd96cb09f95dc87875206d024862a0b4a9a4daafcab6c873",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/legal-basis-mapping.csv",
+      "sha256": "82f9096cf26b9867ca3eef5619a1fe5b229df0453b7841aa3f2b02650068ed2b",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/pii-filter-runtime.md",
+      "sha256": "8763477a4b101ea7c660f7003df78f6cb0dfa29ddb6f64c963a955a962ee635c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "framework/skills/lgpd-operational/principles-checklist.md",
+      "sha256": "5a00f3985d31632f5124d0e2ba096f8fa9267f708194915475bf55a412ff9b35",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "scripts/generate_mappings.py",
+      "sha256": "9731e7116904d1671f59e34c8dc6810462a9b63a75d57413aef6bc7b553210e6",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "scripts/run_evidence.sh",
+      "sha256": "25a1b4aa77b4ab2a9d8c749e7305e6897f5b7051815d1431bc162b970a1d9291",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "scripts/stamp_files.py",
+      "sha256": "4b4299d8215a613a26ddf18dcdcd80d780bb7dafdd1d7588e1ac9387c981225c",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "scripts/validate_framework.py",
+      "sha256": "3b1e302216161462f332f446f5305a87aa03fcef5d6ea7360b5a93ff06e57e94",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "3881c0f6dce27e892842a8c7e2f9dc885832dfcc417a8fccc28d00be5c89cc62",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/test_generate_mappings.py",
+      "sha256": "f166e067bcc8b1441ce9b3f32475be648372646555dcdb74b3e54472eeb4d402",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "tests/test_validate_framework.py",
+      "sha256": "aa627e59e89cbc92b4692139cd76d4c80e075f4c0308b6f3405bd596d7ea0086",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/SPEC.md",
+      "sha256": "0f7187472d072b35b4ea2683132401c2fa1db62091430638a4f167d2f646ac6d",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/architecture-agcp.md",
+      "sha256": "9ded6c785ac37395899901a895a5ed60f8075232eb213db70abd6608de345274",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/canonical-state.md",
+      "sha256": "b610571ce87df17bff0370132ab878277febbb6a4d9af8cb7e5806dbba0bb601",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/commit-boundary-spec.md",
+      "sha256": "954de1473024dbdee7ccd4f585692897bf4e37215d220536294888a35bae908f",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/gaps-analysis.md",
+      "sha256": "44cf45330de832d3c7b4cb12e8f0e9878be757d93028827563340ce43afce2f4",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/ledger-spec.md",
+      "sha256": "8ea429b70f95fc1c2dcee1f5275ab9f382b80e91556e0f10f028811abb9db7c0",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/policy-evaluation-contract.md",
+      "sha256": "1dc5180ffcb068777481c9884b2d6ed399a7d60283ae5f625be618a9bc7f2518",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    },
+    {
+      "path": "ezra-control-plane/provenance-spec.md",
+      "sha256": "8cf300bcd151d9a8a5910e6277b50ec0a2c5867b38686da4a8275874aeff1a94",
+      "validated_at": "2026-08-21T17:52:47+00:00",
+      "run_id": "20260821T175246Z",
+      "result": "PASS"
+    }
+  ]
+}

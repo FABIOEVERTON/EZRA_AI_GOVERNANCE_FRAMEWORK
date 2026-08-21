@@ -1,6 +1,5 @@
 # Conformity Checklist Template
 
-```yaml
 conformity_checklist:
   version: "1.0"
   checklist_id: "CC-{{uuid}}"
@@ -315,4 +314,3 @@ conformity_checklist:
     date: "{{ISO8601}}"
     dpo_review: ""
     legal_review: ""
-```

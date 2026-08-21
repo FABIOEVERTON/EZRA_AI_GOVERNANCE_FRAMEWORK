@@ -2,8 +2,6 @@
 # generate_mappings.py — Generate regulatory → AGCP CR mappings
 
 import csv
-import json
-import os
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent

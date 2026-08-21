@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "validated_at": "2026-08-05",
+  "interface_count": 2,
+  "catalog_version": "1.0.5",
+  "interfaces": [
+    {
+      "if_id": "IF-001",
+      "contract_version": "2.0.4",
+      "specification_file": "spec/AGCP-HTTP-Interface-Specification.md",
+      "cr_count": 56
+    },
+    {
+      "if_id": "IF-002",
+      "contract_version": "2.0.4",
+      "specification_file": "spec/AGCP-Policy-Evaluation-Contract.md",
+      "cr_count": 40
+    }
+  ],
+  "private_profile_references": 0,
+  "source_hashes": {
+    "api/interface-catalog.json": "803b1614a0cd0004763879bf0249f809e6a2e8d2a6c8f0d0db2e0ec240a9b364",
+    "api/interface-catalog.csv": "86110c4ff595051b430a0fa31f8bbeeba8b759890514ec5b2b125c0ef1c3fe96",
+    "api/INTERFACE-CATALOG.md": "bdef27a36edb72a8ea7492233b33a09aa3efa7646cf00a8753d17faf2b5510f9"
+  }
+}

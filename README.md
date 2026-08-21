@@ -1,5 +1,8 @@
 # ezra_ai_governance_framework
 
+![Framework Self-Validation](https://github.com/FABIOEVERTON/EZRA_AI_GOVERNANCE_FRAMEWORK/actions/workflows/ci.yml/badge.svg)
+![Tests](https://img.shields.io/badge/tests-13%20passing-brightgreen)
+
 **Deterministic Runtime Governance Framework for AI Agents — AGCP v2.0.8 L4 Conformant**
 
 This framework provides the governance foundation for the Ezra AI agent ecosystem. It maps regulatory requirements (NIST AI RMF, EU AI Act, AIGP, LGPD) to AGCP (Agent Governance Control Plane) conformance requirements and implements them as enforceable runtime controls at the commit boundary.
@@ -51,9 +54,24 @@ git clone --recurse-submodules https://github.com/FABIOEVERTON/ezra_ai_governanc
 # Or update upstream references
 ./sync.sh
 
-# Validate framework
+# Rebuild framework/ from upstream sources
 ./rebuild-framework.sh
 ```
+
+## Validation & Evidence
+
+This repository validates itself. Every push runs the structural validator, the test suite, and lint on GitHub Actions — and stamps every validated file with SHA-256 + UTC timestamp.
+
+```bash
+pip install -r requirements-dev.txt
+bash scripts/run_evidence.sh                    # full suite -> evidence/YYYY-MM-DD_HHMMSS.log
+python3 scripts/stamp_files.py --check          # detect files changed after last validation
+```
+
+- `evidence/` — dated execution logs + `validation_manifest.json` (per-file provenance)
+- CI artifacts keep the log of every run; the manifest is committed back to `main` on each green build
+
+See [docs/VALIDATION.md](docs/VALIDATION.md) for details.
 
 ## Structure
 
@@ -104,12 +122,7 @@ python3 -m pytest test-vectors/ -v
 
 ## Documentation
 
-- [Getting Started](docs/getting-started.md)
-- [Architecture](docs/architecture.md)
-- [Regulatory Mapping](docs/regulatory-mapping.md)
-- [AGCP Conformance Guide](docs/agcp-conformance-guide.md)
-- [Skill Development](docs/skill-development-guide.md)
-- [Templates Guide](docs/templates-guide.md)
+- [Validation Guide](docs/VALIDATION.md) — how the framework validates itself, what each check means
 
 ## License
 

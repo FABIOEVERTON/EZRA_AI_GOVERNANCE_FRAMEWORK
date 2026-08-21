@@ -1,6 +1,5 @@
 # Risk Assessment Template
 
-```yaml
 risk_assessment:
   version: "1.0"
   assessment_id: "RA-{{uuid}}"
@@ -77,4 +76,3 @@ risk_assessment:
     applicable_crs: []
     gaps: []
     evidence_references: []
-```

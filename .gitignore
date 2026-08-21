@@ -30,6 +30,9 @@ Thumbs.db
 *.log
 logs/
 
+# Evidence validation logs are intentional (audit trail)
+!evidence/*.log
+
 # Build
 dist/
 build/
@@ -43,3 +46,6 @@ htmlcov/
 # Temporary
 *.tmp
 *.temp
+
+# Disposable artifacts (never committed)
+trash/

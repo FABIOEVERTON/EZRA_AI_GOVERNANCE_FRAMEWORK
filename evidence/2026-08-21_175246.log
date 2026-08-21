@@ -1,0 +1,48 @@
+# EZRA AI Governance Framework — Evidence Run
+run_id:     20260821T175246Z
+timestamp:  2026-08-21T17:52:46Z
+python:     Python 3.13.3
+git commit: e88e1fac3befb6f8a4326983822a5d0080395a33
+host:       Darwin 24.6.0 arm64
+
+=== STEP: framework-validator ===
+$ python3 scripts/validate_framework.py
+=== Framework Validation ===
+
+Validating skills...
+Validating mappings...
+Validating templates...
+Validating AGCP reference...
+Validating conformance test vectors...
+Validating ezra-control-plane integration...
+
+=== Results ===
+Errors: 0
+Warnings: 0
+
+✅ All validations passed!
+--- framework-validator: PASS (exit 0)
+
+=== STEP: pytest ===
+$ python3 -m pytest tests/ -q
+.............                                                            [100%]
+13 passed in 0.14s
+--- pytest: PASS (exit 0)
+
+=== STEP: ruff ===
+$ python3 -m ruff check scripts/ tests/
+All checks passed!
+--- ruff: PASS (exit 0)
+
+=== STEP: stamp-files ===
+$ python3 scripts/stamp_files.py --run-id 20260821T175246Z
+Stamped 269 files -> evidence/validation_manifest.json
+--- stamp-files: PASS (exit 0)
+
+================ SUMMARY ================
+framework-validator    PASS
+pytest                 PASS
+ruff                   PASS
+stamp-files            PASS
+=========================================
+evidence log: evidence/2026-08-21_175246.log
