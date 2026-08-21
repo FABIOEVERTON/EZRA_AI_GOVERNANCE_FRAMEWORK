@@ -1,0 +1,21 @@
+Article,Title,AGCP_CRs,Risk_Tier
+Art. 5,Prohibited AI practices,CR-003,Unacceptable risk
+Art. 6,High-risk classification,"CR-007,CR-036,CR-037",High risk
+Art. 7,High-risk list (Annex III),"CR-007,CR-036,CR-037",High risk
+Art. 8,Compliance with requirements,"CR-019,CR-020,CR-021",High risk
+Art. 9,Risk management system,"CR-003,CR-031,CR-032,CR-033",High risk
+Art. 10,Data governance,"CR-036,CR-037,CR-038,CR-062,CR-064",High risk
+Art. 11,Technical documentation,"CR-010,CR-062,CR-063,CR-085",High risk
+Art. 12,Record keeping (logging),"CR-062,CR-063,CR-064,CR-066,CR-067",High risk
+Art. 13,Transparency and information,"CR-010,CR-085,CR-086",High risk
+Art. 14,Human oversight,"CR-002,CR-012,CR-013,CR-014,CR-015,CR-016,CR-017,CR-018",High risk
+Art. 15,"Accuracy, robustness, cybersecurity","CR-032,CR-033,CR-119,CR-120,CR-121",High risk
+Art. 16,Provider obligations,"CR-007,CR-019,CR-022",High risk
+Art. 17,Quality management,"CR-110,CR-111,CR-112",High risk
+Art. 18,Conformity assessment,"CR-079,CR-080,CR-089",High risk
+Art. 19,EU declaration of conformity,"CR-010,CR-062,CR-085",High risk
+Art. 20,CE marking,"CR-010,CR-085",High risk
+Art. 21,Post-market monitoring,"CR-083,CR-084,CR-099,CR-122",High risk
+Art. 22,Incident reporting,"CR-053,CR-054,CR-058,CR-059,CR-060",High risk
+Art. 50,Transparency obligations,"CR-010,CR-085,CR-086",Limited risk
+Art. 51-56,GPAI obligations,"CR-062,CR-064,CR-119,CR-120,CR-121",GPAI

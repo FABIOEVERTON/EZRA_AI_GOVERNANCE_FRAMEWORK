@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agcp.ai/schemas/proposal-submit-request.json",
+  "title": "AGCP Proposal Submit Request (DS-045)",
+  "type": "object",
+  "required": [
+    "proposal_id",
+    "proposal_version",
+    "intent",
+    "target",
+    "effect",
+    "tenant_id",
+    "governance_domain_id",
+    "provenance",
+    "risk_tier",
+    "blink_radius"
+  ],
+  "properties": {
+    "proposal_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "proposal_version": {
+      "type": "string",
+      "const": "2.0.8"
+    },
+    "intent": {
+      "type": "string",
+      "description": "Operational intent declaration (CR-036)"
+    },
+    "target": {
+      "type": "object",
+      "required": ["resource_type", "resource_id"],
+      "properties": {
+        "resource_type": { "type": "string" },
+        "resource_id": { "type": "string" }
+      },
+      "description": "Target resource identification (CR-037)"
+    },
+    "effect": {
+      "type": "string",
+      "enum": ["read", "write", "delete", "transfer", "exec"],
+      "description": "Intended operational effect (CR-038)"
+    },
+    "tenant_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "governance_domain_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["signer", "kid", "alg", "signed_at", "nonce", "scope", "signature"],
+      "properties": {
+        "signer": { "type": "string", "format": "uuid" },
+        "kid": { "type": "string" },
+        "alg": { "type": "string", "const": "ES256" },
+        "signed_at": { "type": "string", "format": "date-time" },
+        "nonce": { "type": "string", "format": "base64" },
+        "scope": { "type": "string", "const": "PROPOSAL_SUBMISSION" },
+        "signature": { "type": "string", "format": "base64" }
+      }
+    },
+    "risk_tier": {
+      "type": "string",
+      "enum": ["critical", "high", "medium", "low"],
+      "description": "Risk tier per EU AI Act / NIST"
+    },
+    "blink_radius": {
+      "type": "object",
+      "required": ["credentials"],
+      "properties": {
+        "credentials": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name", "effect_kind", "resources", "irreversible", "max_damage", "risk_score"],
+            "properties": {
+              "name": { "type": "string" },
+              "effect_kind": { "type": "string", "enum": ["read", "write", "delete", "transfer", "exec"] },
+              "resources": { "type": "array", "items": { "type": "string" } },
+              "irreversible": { "type": "boolean" },
+              "max_damage": { "type": "string" },
+              "risk_score": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
+              "rate_limit": { "type": "string" },
+              "hitl_required": { "type": "boolean" },
+              "quorum": { "type": "integer", "minimum": 0 }
+            }
+          }
+        }
+      }
+    },
+    "mission_task_lineage": {
+      "type": "array",
+      "items": { "type": "string", "format": "uuid" },
+      "description": "Mission/task lineage (CR-043)"
+    },
+    "delegation_chain": {
+      "type": "array",
+      "items": { "type": "string", "format": "uuid" },
+      "description": "Delegation chain references (CR-044)"
+    },
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^agcp://" }
+    },
+    "invariants": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^agcp://" }
+    },
+    "exceptions": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^agcp://" }
+    },
+    "validity_period": {
+      "type": "object",
+      "required": ["valid_from", "valid_until"],
+      "properties": {
+        "valid_from": { "type": "string", "format": "date-time" },
+        "valid_until": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

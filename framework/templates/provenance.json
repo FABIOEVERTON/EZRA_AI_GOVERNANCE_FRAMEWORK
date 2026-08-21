@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agcp.ai/schemas/provenance.json",
+  "title": "AGCP Provenance Wire Format (Detached Signatures)",
+  "type": "object",
+  "required": [
+    "signer",
+    "kid",
+    "alg",
+    "signed_at",
+    "nonce",
+    "scope",
+    "signature"
+  ],
+  "properties": {
+    "signer": {
+      "type": "string",
+      "format": "uuid",
+      "description": "Unique identifier of the signing entity"
+    },
+    "kid": {
+      "type": "string",
+      "description": "Key identifier for the signing key"
+    },
+    "alg": {
+      "type": "string",
+      "const": "ES256",
+      "description": "Elliptic Curve Digital Signature Algorithm (ECDSA) with P-256 and SHA-256"
+    },
+    "signed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the signature was created"
+    },
+    "nonce": {
+      "type": "string",
+      "format": "base64",
+      "description": "Cryptographic nonce for replay protection (min 128 bits entropy)"
+    },
+    "scope": {
+      "type": "string",
+      "enum": [
+        "PROPOSAL_SUBMISSION",
+        "GOVERNANCE_APPROVAL",
+        "COMMIT_BOUNDARY",
+        "GOVERNANCE_LEDGER_EVENT",
+        "POLICY_REGISTRATION",
+        "CONSTRAINT_REGISTRATION",
+        "INVARIANT_REGISTRATION",
+        "EXCEPTION_REGISTRATION"
+      ],
+      "description": "Scope of the signed content"
+    },
+    "signature": {
+      "type": "string",
+      "format": "base64",
+      "description": "Detached ECDSA signature over the canonicalized payload"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,219 @@
+# EU AI Act Conformity Checklist
+
+```yaml
+conformity_assessment:
+  system_name: ""
+  system_type: "high-risk|limited|minimal|gpai"
+  provider_name: ""
+  date: ""
+  assessor: ""
+
+requirements:
+  # Article 9 - Risk Management System
+  risk_management:
+    - id: "RM-01"
+      requirement: "Risk management system established and documented"
+      agcp_cr: "CR-003,CR-031"
+      status: "pending"
+      evidence: ""
+    - id: "RM-02"
+      requirement: "Known and foreseeable risks identified"
+      agcp_cr: "CR-032,CR-033"
+      status: "pending"
+      evidence: ""
+    - id: "RM-03"
+      requirement: "Risk mitigation measures implemented"
+      agcp_cr: "CR-019,CR-020"
+      status: "pending"
+      evidence: ""
+
+  # Article 10 - Data Governance
+  data_governance:
+    - id: "DG-01"
+      requirement: "Training/validation/testing data governance"
+      agcp_cr: "CR-036,CR-037,CR-038"
+      status: "pending"
+      evidence: ""
+    - id: "DG-02"
+      requirement: "Data quality criteria defined"
+      agcp_cr: "CR-062,CR-064"
+      status: "pending"
+      evidence: ""
+    - id: "DG-03"
+      requirement: "Bias examination and mitigation"
+      agcp_cr: "CR-079,CR-080"
+      status: "pending"
+      evidence: ""
+
+  # Article 11 - Technical Documentation
+  technical_documentation:
+    - id: "TD-01"
+      requirement: "System architecture documented"
+      agcp_cr: "CR-010,CR-085"
+      status: "pending"
+      evidence: ""
+    - id: "TD-02"
+      requirement: "Data requirements documented"
+      agcp_cr: "CR-062,CR-063"
+      status: "pending"
+      evidence: ""
+    - id: "TD-03"
+      requirement: "Monitoring and logging design documented"
+      agcp_cr: "CR-062,CR-063,CR-064"
+      status: "pending"
+      evidence: ""
+
+  # Article 12 - Record Keeping (Logging)
+  logging:
+    - id: "LG-01"
+      requirement: "Automatic logging of events"
+      agcp_cr: "CR-062,CR-063,CR-064"
+      status: "pending"
+      evidence: ""
+    - id: "LG-02"
+      requirement: "Log retention period defined"
+      agcp_cr: "CR-066,CR-067"
+      status: "pending"
+      evidence: ""
+    - id: "LG-03"
+      requirement: "Log integrity protection"
+      agcp_cr: "CR-066,CR-067"
+      status: "pending"
+      evidence: ""
+
+  # Article 13 - Transparency
+  transparency:
+    - id: "TR-01"
+      requirement: "User information provided"
+      agcp_cr: "CR-010,CR-085"
+      status: "pending"
+      evidence: ""
+    - id: "TR-02"
+      requirement: "Instructions for use documented"
+      agcp_cr: "CR-085,CR-086"
+      status: "pending"
+      evidence: ""
+
+  # Article 14 - Human Oversight
+  human_oversight:
+    - id: "HO-01"
+      requirement: "Human oversight measures implemented"
+      agcp_cr: "CR-002,CR-012"
+      status: "pending"
+      evidence: ""
+    - id: "HO-02"
+      requirement: "Oversight personnel trained"
+      agcp_cr: "CR-014,CR-015"
+      status: "pending"
+      evidence: ""
+    - id: "HO-03"
+      requirement: "Escalation procedures defined"
+      agcp_cr: "CR-013,CR-017,CR-018"
+      status: "pending"
+      evidence: ""
+
+  # Article 15 - Accuracy, Robustness, Cybersecurity
+  accuracy_robustness:
+    - id: "AR-01"
+      requirement: "Accuracy metrics defined and monitored"
+      agcp_cr: "CR-083,CR-084"
+      status: "pending"
+      evidence: ""
+    - id: "AR-02"
+      requirement: "Robustness against attacks tested"
+      agcp_cr: "CR-119,CR-120,CR-121"
+      status: "pending"
+      evidence: ""
+    - id: "AR-03"
+      requirement: "Cybersecurity measures implemented"
+      agcp_cr: "CR-119,CR-120,CR-121"
+      status: "pending"
+      evidence: ""
+
+  # Article 17 - Quality Management
+  quality_management:
+    - id: "QM-01"
+      requirement: "Quality management system established"
+      agcp_cr: "CR-110,CR-111,CR-112"
+      status: "pending"
+      evidence: ""
+    - id: "QM-02"
+      requirement: "Post-market monitoring plan"
+      agcp_cr: "CR-083,CR-084,CR-099,CR-122"
+      status: "pending"
+      evidence: ""
+
+  # Article 21 - Post-Market Monitoring
+  post_market:
+    - id: "PM-01"
+      requirement: "Post-market monitoring system active"
+      agcp_cr: "CR-083,CR-084,CR-099"
+      status: "pending"
+      evidence: ""
+    - id: "PM-02"
+      requirement: "Incident reporting procedure"
+      agcp_cr: "CR-053,CR-054,CR-058,CR-059,CR-060"
+      status: "pending"
+      evidence: ""
+
+  # Article 22 - Incident Reporting
+  incident_reporting:
+    - id: "IR-01"
+      requirement: "Serious incident detection"
+      agcp_cr: "CR-053,CR-054"
+      status: "pending"
+      evidence: ""
+    - id: "IR-02"
+      requirement: "15-day reporting to authorities"
+      agcp_cr: "CR-058,CR-059"
+      status: "pending"
+      evidence: ""
+    - id: "IR-03"
+      requirement: "Root cause analysis"
+      agcp_cr: "CR-062,CR-063,CR-064"
+      status: "pending"
+      evidence: ""
+
+  # Article 50 - Transparency (Limited Risk)
+  limited_risk_transparency:
+    - id: "LT-01"
+      requirement: "AI system disclosure to users"
+      agcp_cr: "CR-010,CR-085"
+      status: "pending"
+      evidence: ""
+    - id: "LT-02"
+      requirement: "AI-generated content labeling"
+      agcp_cr: "CR-085,CR-086"
+      status: "pending"
+      evidence: ""
+
+  # Articles 51-56 - GPAI
+  gpai:
+    - id: "GP-01"
+      requirement: "Technical documentation for GPAI"
+      agcp_cr: "CR-010,CR-062,CR-085"
+      status: "pending"
+      evidence: ""
+    - id: "GP-02"
+      requirement: "Downstream provider information"
+      agcp_cr: "CR-010,CR-085,CR-086"
+      status: "pending"
+      evidence: ""
+    - id: "GP-03"
+      requirement: "Copyright policy compliance"
+      agcp_cr: "CR-036,CR-037,CR-038"
+      status: "pending"
+      evidence: ""
+    - id: "GP-04"
+      requirement: "Systemic risk assessment (if applicable)"
+      agcp_cr: "CR-003,CR-031,CR-032,CR-033"
+      status: "pending"
+      evidence: ""
+
+summary:
+  total_requirements: 0
+  compliant: 0
+  non_compliant: 0
+  not_applicable: 0
+  overall_status: "pending"
+```

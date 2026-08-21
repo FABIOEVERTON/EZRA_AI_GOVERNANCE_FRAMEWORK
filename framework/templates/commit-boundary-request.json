@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agcp.ai/schemas/commit-boundary-request.json",
+  "title": "AGCP Commit Boundary Request",
+  "type": "object",
+  "required": [
+    "commit_request_id",
+    "authorization_id",
+    "proposal_id",
+    "tenant_id",
+    "governance_domain_id",
+    "canonical_state_digest",
+    "provenance"
+  ],
+  "properties": {
+    "commit_request_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "authorization_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "proposal_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "tenant_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "governance_domain_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "canonical_state_digest": {
+      "type": "object",
+      "required": ["algorithm", "value"],
+      "properties": {
+        "algorithm": { "type": "string", "enum": ["SHA-256", "BLAKE2B-256"] },
+        "value": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "description": "Canonical state digest at commit time (CR-096)"
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["signer", "kid", "alg", "signed_at", "nonce", "scope", "signature"],
+      "properties": {
+        "signer": { "type": "string", "format": "uuid" },
+        "kid": { "type": "string" },
+        "alg": { "type": "string", "const": "ES256" },
+        "signed_at": { "type": "string", "format": "date-time" },
+        "nonce": { "type": "string", "format": "base64" },
+        "scope": { "type": "string", "const": "COMMIT_BOUNDARY" },
+        "signature": { "type": "string", "format": "base64" }
+      }
+    },
+    "derived_credentials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["credential_name", "scope", "ttl_seconds", "rate_limit"],
+        "properties": {
+          "credential_name": { "type": "string" },
+          "scope": { "type": "string" },
+          "ttl_seconds": { "type": "integer", "minimum": 1 },
+          "rate_limit": { "type": "string" },
+          "bound_to_authorization": { "type": "string", "format": "uuid" }
+        }
+      }
+    },
+    "pep_enforcement_context": {
+      "type": "object",
+      "required": ["authorization_ref_match", "canonical_state_current", "invariants_satisfied", "constraints_satisfied", "hitl_quorum_met", "approval_not_expired", "approval_signature_valid"],
+      "properties": {
+        "authorization_ref_match": { "type": "boolean" },
+        "canonical_state_current": { "type": "boolean" },
+        "invariants_satisfied": { "type": "boolean" },
+        "constraints_satisfied": { "type": "boolean" },
+        "hitl_quorum_met": { "type": "boolean" },
+        "approval_not_expired": { "type": "boolean" },
+        "approval_signature_valid": { "type": "boolean" }
+      }
+    }
+  }
+}

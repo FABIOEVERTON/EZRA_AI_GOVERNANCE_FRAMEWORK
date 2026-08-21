@@ -1,0 +1,318 @@
+# Conformity Checklist Template
+
+```yaml
+conformity_checklist:
+  version: "1.0"
+  checklist_id: "CC-{{uuid}}"
+  system_name: ""
+  system_type: "high-risk|limited|minimal|gpai"
+  provider: ""
+  date: "{{ISO8601}}"
+  assessor: ""
+  eu_ai_act_version: "2024/1689"
+  agcp_version: "v2.0.8"
+  target_conformance: "L4"
+  
+  requirements:
+    # Article 9 - Risk Management System
+    risk_management:
+      - id: "RM-01"
+        article: "Art. 9"
+        requirement: "Risk management system established and documented"
+        agcp_cr: "CR-003,CR-031"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "RM-02"
+        article: "Art. 9"
+        requirement: "Known and foreseeable risks identified"
+        agcp_cr: "CR-032,CR-033"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "RM-03"
+        article: "Art. 9"
+        requirement: "Risk mitigation measures implemented"
+        agcp_cr: "CR-019,CR-020"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 10 - Data Governance
+    data_governance:
+      - id: "DG-01"
+        article: "Art. 10"
+        requirement: "Training/validation/testing data governance"
+        agcp_cr: "CR-036,CR-037,CR-038"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "DG-02"
+        article: "Art. 10"
+        requirement: "Data quality criteria defined"
+        agcp_cr: "CR-062,CR-064"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "DG-03"
+        article: "Art. 10"
+        requirement: "Bias examination and mitigation"
+        agcp_cr: "CR-079,CR-080"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 11 - Technical Documentation
+    technical_documentation:
+      - id: "TD-01"
+        article: "Art. 11"
+        requirement: "System architecture documented"
+        agcp_cr: "CR-010,CR-085"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "TD-02"
+        article: "Art. 11"
+        requirement: "Data requirements documented"
+        agcp_cr: "CR-062,CR-063"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "TD-03"
+        article: "Art. 11"
+        requirement: "Monitoring and logging design documented"
+        agcp_cr: "CR-062,CR-063,CR-064"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 12 - Record Keeping (Logging)
+    logging:
+      - id: "LG-01"
+        article: "Art. 12"
+        requirement: "Automatic logging of events"
+        agcp_cr: "CR-062,CR-063,CR-064"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "LG-02"
+        article: "Art. 12"
+        requirement: "Log retention period defined"
+        agcp_cr: "CR-066,CR-067"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "LG-03"
+        article: "Art. 12"
+        requirement: "Log integrity protection"
+        agcp_cr: "CR-066,CR-067"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 13 - Transparency
+    transparency:
+      - id: "TR-01"
+        article: "Art. 13"
+        requirement: "User information provided"
+        agcp_cr: "CR-010,CR-085"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "TR-02"
+        article: "Art. 13"
+        requirement: "Instructions for use documented"
+        agcp_cr: "CR-085,CR-086"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 14 - Human Oversight
+    human_oversight:
+      - id: "HO-01"
+        article: "Art. 14"
+        requirement: "Human oversight measures implemented"
+        agcp_cr: "CR-002,CR-012"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "HO-02"
+        article: "Art. 14"
+        requirement: "Oversight personnel trained"
+        agcp_cr: "CR-014,CR-015"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "HO-03"
+        article: "Art. 14"
+        requirement: "Escalation procedures defined"
+        agcp_cr: "CR-013,CR-017,CR-018"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 15 - Accuracy, Robustness, Cybersecurity
+    accuracy_robustness:
+      - id: "AR-01"
+        article: "Art. 15"
+        requirement: "Accuracy metrics defined and monitored"
+        agcp_cr: "CR-083,CR-084"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "AR-02"
+        article: "Art. 15"
+        requirement: "Robustness against attacks tested"
+        agcp_cr: "CR-119,CR-120,CR-121"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "AR-03"
+        article: "Art. 15"
+        requirement: "Cybersecurity measures implemented"
+        agcp_cr: "CR-119,CR-120,CR-121"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 17 - Quality Management
+    quality_management:
+      - id: "QM-01"
+        article: "Art. 17"
+        requirement: "Quality management system established"
+        agcp_cr: "CR-110,CR-111,CR-112"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "QM-02"
+        article: "Art. 17"
+        requirement: "Post-market monitoring plan"
+        agcp_cr: "CR-083,CR-084,CR-099,CR-122"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 21 - Post-Market Monitoring
+    post_market:
+      - id: "PM-01"
+        article: "Art. 21"
+        requirement: "Post-market monitoring system active"
+        agcp_cr: "CR-083,CR-084,CR-099"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "PM-02"
+        article: "Art. 21"
+        requirement: "Incident reporting procedure"
+        agcp_cr: "CR-053,CR-054,CR-058,CR-059,CR-060"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 22 - Incident Reporting
+    incident_reporting:
+      - id: "IR-01"
+        article: "Art. 22"
+        requirement: "Serious incident detection"
+        agcp_cr: "CR-053,CR-054"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "IR-02"
+        article: "Art. 22"
+        requirement: "15-day reporting to authorities"
+        agcp_cr: "CR-058,CR-059"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "IR-03"
+        article: "Art. 22"
+        requirement: "Root cause analysis"
+        agcp_cr: "CR-062,CR-063,CR-064"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Article 50 - Transparency (Limited Risk)
+    limited_risk_transparency:
+      - id: "LT-01"
+        article: "Art. 50"
+        requirement: "AI system disclosure to users"
+        agcp_cr: "CR-010,CR-085"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "LT-02"
+        article: "Art. 50"
+        requirement: "AI-generated content labeling"
+        agcp_cr: "CR-085,CR-086"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+    
+    # Articles 51-56 - GPAI
+    gpai:
+      - id: "GP-01"
+        article: "Art. 52-53"
+        requirement: "Technical documentation for GPAI"
+        agcp_cr: "CR-010,CR-062,CR-085"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "GP-02"
+        article: "Art. 52-53"
+        requirement: "Downstream provider information"
+        agcp_cr: "CR-010,CR-085,CR-086"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "GP-03"
+        article: "Art. 52-53"
+        requirement: "Copyright policy compliance"
+        agcp_cr: "CR-036,CR-037,CR-038"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+      
+      - id: "GP-04"
+        article: "Art. 55"
+        requirement: "Systemic risk assessment (if applicable)"
+        agcp_cr: "CR-003,CR-031,CR-032,CR-033"
+        status: "pending|compliant|non_compliant|not_applicable"
+        evidence: ""
+        ledger_ref: ""
+  
+  summary:
+    total_requirements: 0
+    compliant: 0
+    non_compliant: 0
+    not_applicable: 0
+    overall_status: "pending|compliant|non_compliant"
+    conformance_level: "L1|L2|L3|L4|L5"
+  
+  sign_off:
+    assessor_signature: ""
+    date: "{{ISO8601}}"
+    dpo_review: ""
+    legal_review: ""
+```

@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agcp.ai/schemas/ledger-event.json",
+  "title": "AGCP Ledger Event Example (DS-040)",
+  "type": "object",
+  "required": [
+    "ledger_event_id",
+    "event_version",
+    "record_type",
+    "event_type",
+    "event_category",
+    "ledger_id",
+    "ordering_scope",
+    "ledger_position",
+    "tenant_id",
+    "governance_domain_id",
+    "event_subject",
+    "event_artifact_refs",
+    "governance_basis",
+    "evidence_binding",
+    "causality",
+    "event_time",
+    "append_status",
+    "append_only_controls",
+    "integrity_protection",
+    "attribution",
+    "provenance",
+    "replay_material",
+    "semantic_assertions",
+    "event_uri"
+  ],
+  "properties": {
+    "ledger_event_id": {
+      "type": "string",
+      "format": "uuid",
+      "example": "550e8400-e29b-41d4-a716-446655440000"
+    },
+    "event_version": {
+      "type": "string",
+      "const": "2.0.8"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "GOVERNANCE_LEDGER_EVENT"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "PROPOSAL_SUBMITTED",
+        "PROPOSAL_QUALIFIED",
+        "GOVERNANCE_DECISION",
+        "GOVERNANCE_APPROVAL",
+        "EXECUTION_AUTHORIZATION",
+        "COMMIT_BOUNDARY",
+        "EXECUTION_COMPLETE",
+        "STRUCTURAL_REFUSAL",
+        "HUMAN_ADJUDICATION_PENDING",
+        "HUMAN_ADJUDICATION_COMPLETE",
+        "DEGRADED_STATE_ENTERED",
+        "DEGRADED_STATE_RECOVERED",
+        "CONTINUATION_INTEGRITY_CHECK",
+        "INCIDENT_DETECTED",
+        "CONTAINMENT_ACTION",
+        "ANPD_NOTIFICATION_SENT",
+        "SUBJECT_NOTIFICATION_SENT",
+        "REMEDIATION_DEPLOYED",
+        "INCIDENT_CLOSED",
+        "PII_FILTER_APPLIED",
+        "CREDENTIAL_DERIVED",
+        "POLICY_REGISTERED",
+        "CONSTRAINT_REGISTERED",
+        "INVARIANT_REGISTERED",
+        "GOVERNANCE_CONFIGURATION_CHANGED"
+      ]
+    },
+    "event_category": {
+      "type": "string",
+      "enum": [
+        "LIFECYCLE",
+        "EXECUTION",
+        "EVIDENCE",
+        "ADMINISTRATIVE",
+        "INCIDENT",
+        "COMPLIANCE"
+      ]
+    },
+    "ledger_id": {
+      "type": "string",
+      "example": "tenant-001-governance-domain-001"
+    },
+    "ordering_scope": {
+      "type": "string",
+      "format": "uuid",
+      "example": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    "ledger_position": {
+      "type": "object",
+      "required": ["sequence", "event_id"],
+      "properties": {
+        "sequence": {
+          "type": "integer",
+          "minimum": 0,
+          "example": 5
+        },
+        "predecessor_event_id": {
+          "type": "string",
+          "format": "uuid",
+          "example": "550e8400-e29b-41d4-a716-446655440002"
+        },
+        "previous_event_digest": {
+          "type": "object",
+          "required": ["algorithm", "value"],
+          "properties": {
+            "algorithm": { "type": "string", "enum": ["SHA-256"] },
+            "value": { "type": "string", "pattern": "^[a-f0-9]{64}$", "example": "a1b2c3d4e5f6..." }
+          }
+        },
+        "event_id": {
+          "type": "string",
+          "format": "uuid",
+          "example": "550e8400-e29b-41d4-a716-446655440000"
+        }
+      }
+    },
+    "tenant_id": {
+      "type": "string",
+      "format": "uuid",
+      "example": "tenant-001"
+    },
+    "governance_domain_id": {
+      "type": "string",
+      "format": "uuid",
+      "example": "governance-domain-001"
+    },
+    "event_subject": {
+      "type": "object",
+      "required": ["subject_type", "subject_id"],
+      "properties": {
+        "subject_type": {
+          "type": "string",
+          "enum": [
+            "PROPOSAL",
+            "AUTHORIZATION",
+            "EVIDENCE",
+            "POLICY",
+            "CONSTRAINT",
+            "INVARIANT",
+            "APPROVAL",
+            "MODEL_PROPOSAL",
+            "INCIDENT",
+            "DATA_SUBJECT_REQUEST"
+          ]
+        },
+        "subject_id": {
+          "type": "string",
+          "format": "uuid",
+          "example": "550e8400-e29b-41d4-a716-446655440003"
+        }
+      }
+    },
+    "event_artifact_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["artifact_uri", "artifact_digest", "artifact_type"],
+        "properties": {
+          "artifact_uri": {
+            "type": "string",
+            "pattern": "^agcp://",
+            "example": "agcp://tenant-001/governance-domain-001/proposal/550e8400-e29b-41d4-a716-446655440003"
+          },
+          "artifact_digest": {
+            "type": "object",
+            "required": ["algorithm", "value"],
+            "properties": {
+              "algorithm": { "type": "string", "enum": ["SHA-256"] },
+              "value": { "type": "string", "pattern": "^[a-f0-9]{64}$", "example": "a1b2c3d4e5f6..." }
+            }
+          },
+          "artifact_type": {
+            "type": "string",
+            "enum": [
+              "PROPOSAL",
+              "POLICY",
+              "EVIDENCE",
+              "APPROVAL",
+              "AUTHORIZATION",
+              "RECEIPT",
+              "MODEL_CARD",
+              "SYSTEM_CARD",
+              "DPIA",
+              "INCIDENT_REPORT"
+            ]
+          }
+        }
+      }
+    },
+    "governance_basis": {
+      "type": "object",
+      "required": ["policy_refs", "constraint_refs", "invariant_refs"],
+      "properties": {
+        "policy_refs": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^agcp://" },
+          "example": ["agcp://tenant-001/governance-domain-001/policy/governance-policy"]
+        },
+        "constraint_refs": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^agcp://" },
+          "example": ["agcp://tenant-001/governance-domain-001/constraint/risk-tier-high"]
+        },
+        "invariant_refs": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^agcp://" },
+          "example": ["agcp://tenant-001/governance-domain-001/invariant/prohibited-practices"]
+        },
+        "exception_refs": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^agcp://" }
+        }
+      }
+    },
+    "evidence_binding": {
+      "type": "object",
+      "required": ["governance_evidence_refs"],
+      "properties": {
+        "governance_evidence_refs": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^agcp://" },
+          "example": ["agcp://tenant-001/governance-domain-001/evidence/fairness-assessment-001"]
+        }
+      }
+    },
+    "causality": {
+      "type": "object",
+      "properties": {
+        "parent_event_id": { "type": "string", "format": "uuid" },
+        "dependency_event_ids": {
+          "type": "array",
+          "items": { "type": "string", "format": "uuid" }
+        }
+      }
+    },
+    "event_time": {
+      "type": "string",
+      "format": "date-time",
+      "example": "2026-08-18T10:00:00Z"
+    },
+    "append_status": {
+      "type": "string",
+      "const": "APPENDED"
+    },
+    "append_only_controls": {
+      "type": "object",
+      "required": ["immutable", "correction_by_subsequent_event"],
+      "properties": {
+        "immutable": { "type": "boolean", "const": true },
+        "correction_by_subsequent_event": { "type": "boolean", "const": true }
+      }
+    },
+    "integrity_protection": {
+      "type": "object",
+      "required": ["algorithm", "digest", "chain_digest"],
+      "properties": {
+        "algorithm": { "type": "string", "enum": ["SHA-256"] },
+        "digest": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$", "example": "sha256:a1b2c3d4e5f6..." },
+        "chain_digest": { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$", "example": "sha256:f6e5d4c3b2a1..." }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "required": ["actor_id", "actor_type", "role"],
+      "properties": {
+        "actor_id": { "type": "string", "format": "uuid", "example": "550e8400-e29b-41d4-a716-446655440004" },
+        "actor_type": { "type": "string", "enum": ["HUMAN", "AGENT", "SYSTEM"] },
+        "role": { "type": "string", "enum": ["PROPOSER", "APPROVER", "EXECUTOR", "AUDITOR", "DPO", "RISK_OWNER", "EXECUTIVE"] }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["signer", "kid", "alg", "signed_at", "nonce", "scope", "signature"],
+      "properties": {
+        "signer": { "type": "string", "format": "uuid", "example": "550e8400-e29b-41d4-a716-446655440004" },
+        "kid": { "type": "string", "example": "key-001" },
+        "alg": { "type": "string", "const": "ES256" },
+        "signed_at": { "type": "string", "format": "date-time", "example": "2026-08-18T10:00:00Z" },
+        "nonce": { "type": "string", "format": "base64", "example": "dGhpcyBpcyBhIG5vbmNl" },
+        "scope": { "type": "string", "example": "GOVERNANCE_LEDGER_EVENT" },
+        "signature": { "type": "string", "format": "base64", "example": "MEUCIQD..." }
+      }
+    },
+    "replay_material": {
+      "type": "object",
+      "required": [
+        "ordered_event_content",
+        "governance_basis",
+        "artifact_reference_set",
+        "evidence_reference_set",
+        "causality",
+        "ledger_chain_digests"
+      ],
+      "properties": {
+        "ordered_event_content": { "type": "object" },
+        "governance_basis": { "type": "object" },
+        "artifact_reference_set": { "type": "array" },
+        "evidence_reference_set": { "type": "array" },
+        "causality": { "type": "object" },
+        "ledger_chain_digests": { "type": "array" }
+      }
+    },
+    "semantic_assertions": {
+      "type": "object",
+      "required": [
+        "append_only",
+        "authoritative_ordering",
+        "tenant_isolation",
+        "reference_resolvability",
+        "provenance_chain_continuity",
+        "non_authorizing_semantics",
+        "correction_by_subsequent_event"
+      ],
+      "properties": {
+        "append_only": { "type": "boolean", "const": true },
+        "authoritative_ordering": { "type": "boolean", "const": true },
+        "tenant_isolation": { "type": "boolean", "const": true },
+        "reference_resolvability": { "type": "boolean", "const": true },
+        "provenance_chain_continuity": { "type": "boolean", "const": true },
+        "non_authorizing_semantics": { "type": "boolean", "const": true },
+        "correction_by_subsequent_event": { "type": "boolean", "const": true }
+      }
+    },
+    "event_uri": {
+      "type": "string",
+      "pattern": "^agcp://",
+      "example": "agcp://tenant-001/governance-domain-001/ledger/550e8400-e29b-41d4-a716-446655440000"
+    }
+  }
+}

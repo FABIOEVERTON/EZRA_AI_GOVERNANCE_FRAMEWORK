@@ -1,0 +1,6 @@
+SKILL nist-ai-rmf-mapping | S24 | cluster governanca
+DESC: Maps NIST AI RMF (Govern/Map/Measure/Manage) 22 subcategories to AGCP CRs and Ezra skills. Validates runtime enforcement via commit-boundary.
+MAPPING: GOVERN→CR-001/007/011, MAP→CR-036/037/038, MEASURE→CR-083/084, MANAGE→CR-088/089
+RUNTIME: governance-ledger + observability S22 + design-de-loops S14
+SOURCE: upstream/ai-governance-framework/framework/compliance/nist-ai-rmf-mapping.md
+AGCP_REF: framework/agcp-reference/CR-requirements.csv

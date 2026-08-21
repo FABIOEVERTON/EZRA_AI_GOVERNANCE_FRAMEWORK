@@ -1,0 +1,144 @@
+# LGPD Legal Basis Mapping
+
+## Article 7 — Legal Bases for Processing Personal Data
+
+| Legal Basis | Article | Description | Applicable Data Types | AGCP CR | Ezra Skill |
+|-------------|---------|-------------|----------------------|---------|------------|
+| **Consent** | Art. 7.I | Free, informed, unambiguous consent | All personal data | CR-005, CR-040 | lgpd-operational |
+| **Legal Obligation** | Art. 7.II | Compliance with legal/regulatory obligation | HR, tax, legal data | CR-006, CR-007 | lgpd-operational |
+| **Public Administration** | Art. 7.III | Public administration, public policies | Government data | CR-006, CR-007 | lgpd-operational |
+| **Research** | Art. 7.IV | Research by research entities | Anonymized research data | CR-036, CR-037 | lgpd-operational |
+| **Contract Execution** | Art. 7.V | Contract performance, pre-contract | Customer, employee data | CR-036, CR-037 | lgpd-operational |
+| **Exercise of Rights** | Art. 7.VI | Judicial, administrative, arbitration | Legal proceedings data | CR-010, CR-085 | lgpd-operational |
+| **Life Protection** | Art. 7.VII | Protection of life, physical safety | Health, emergency data | CR-053, CR-054 | lgpd-operational |
+| **Health Protection** | Art. 7.VIII | Health protection, by health professionals | Health records | CR-053, CR-054 | lgpd-operational |
+| **Legitimate Interest** | Art. 7.IX | Legitimate interest of controller/third party | Marketing, analytics, fraud | CR-031, CR-032, CR-033 | lgpd-operational |
+| **Credit Protection** | Art. 7.X | Credit protection, credit scoring | Financial, credit data | CR-036, CR-037 | lgpd-operational |
+
+---
+
+## Mapping by Data Category
+
+```yaml
+data_category_mapping:
+  - category: "identification"
+    examples: ["name", "CPF", "RG", "passport"]
+    legal_bases: ["consent", "legal_obligation", "contract", "legitimate_interest"]
+    default: "consent"
+    agcp_cr: "CR-005, CR-006, CR-036"
+  
+  - category: "contact"
+    examples: ["email", "phone", "address"]
+    legal_bases: ["consent", "contract", "legitimate_interest"]
+    default: "consent"
+    agcp_cr: "CR-005, CR-036"
+  
+  - category: "financial"
+    examples: ["credit_card", "bank_account", "income", "credit_score"]
+    legal_bases: ["contract", "legal_obligation", "credit_protection", "legitimate_interest"]
+    default: "contract"
+    agcp_cr: "CR-036, CR-037, CR-007"
+  
+  - category: "health"
+    examples: ["medical_records", "prescriptions", "genetic_data"]
+    legal_bases: ["consent", "health_protection", "life_protection", "research"]
+    default: "health_protection"
+    agcp_cr: "CR-053, CR-054"
+  
+  - category: "biometric"
+    examples: ["fingerprint", "face_recognition", "voice"]
+    legal_bases: ["consent", "legal_obligation", "life_protection"]
+    default: "consent"
+    agcp_cr: "CR-005, CR-006"
+  
+  - category: "employment"
+    examples: ["salary", "performance", "disciplinary"]
+    legal_bases: ["contract", "legal_obligation", "legitimate_interest"]
+    default: "contract"
+    agcp_cr: "CR-036, CR-006"
+  
+  - category: "behavioral"
+    examples: ["browsing_history", "purchase_history", "preferences"]
+    legal_bases: ["consent", "legitimate_interest"]
+    default: "consent"
+    agcp_cr: "CR-005, CR-031"
+  
+  - category: "location"
+    examples: ["GPS", "IP_address", "check_ins"]
+    legal_bases: ["consent", "legitimate_interest", "life_protection"]
+    default: "consent"
+    agcp_cr: "CR-005, CR-031"
+```
+
+---
+
+## Consent Management (Art. 7.I + Art. 8)
+
+```yaml
+consent_management:
+  requirements:
+    - free: true
+    - informed: true
+    - unambiguous: true
+    - specific: true
+    - granular: true
+    - revocable: true
+    - documented: true
+  
+  consent_record:
+    fields:
+      - data_subject_id: "uuid"
+      - purpose: ""
+      - data_categories: []
+      - legal_basis: "consent"
+      - consent_given_at: "ISO8601"
+      - consent_method: "explicit|implicit"
+      - consent_version: ""
+      - revocation_at: "ISO8601|null"
+      - revocation_method: ""
+  
+  agcp_integration:
+    - proposal_includes_consent: true
+    - consent_verified_at_commit: true
+    - revocation_triggers_structural_refusal: true
+    - CR-005: "Provenance validation failure"
+    - CR-015: "Cosign expired"
+```
+
+---
+
+## Legitimate Interest Assessment (Art. 7.IX + Art. 10)
+
+```yaml
+legitimate_interest_assessment:
+  required: true
+  steps:
+    - purpose_test: "Identify legitimate interest"
+    - necessity_test: "Processing necessary for purpose"
+    - balancing_test: "Rights vs interest balance"
+    - safeguards: "Additional safeguards applied"
+  
+  documentation:
+    - interest_identified: ""
+    - necessity_justified: ""
+    - balancing_result: ""
+    - safeguards_applied: []
+    - dpo_opinion: ""
+  
+  agcp_cr: "CR-031, CR-032, CR-033"
+```
+
+---
+
+## Verification
+
+```bash
+# Check legal basis for data processing
+python3 -m agcp.lgpd legal-basis --data-category financial --purpose credit_scoring
+
+# Validate consent record
+python3 -m agcp.lgpd consent validate --consent-record consent.json
+
+# Run LI assessment
+python3 -m agcp.lgpd li-assess --purpose "fraud_detection" --data behavioral
+```

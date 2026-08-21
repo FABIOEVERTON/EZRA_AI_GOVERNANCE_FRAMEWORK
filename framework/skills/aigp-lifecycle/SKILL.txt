@@ -1,0 +1,6 @@
+SKILL aigp-lifecycle | S26 | cluster governanca
+DESC: IAPP AIGP lifecycle (Accountability, Fairness, Transparency, Privacy by Design, Risk Mgmt) mapped to AGCP deterministic governance. Each phase has commit-boundary checkpoint.
+MAPPING: Accountability→Authority Lineage (CR-040/044), Fairness→CR-083/087, Transparency→CR-010/085, Privacy→CR-119/121, Risk→CR-003/031
+RUNTIME: model lifecycle gates + fairness monitoring + PII filter
+SOURCE: IAPP AIGP Body of Knowledge
+AGCP_REF: framework/agcp-reference/CR-requirements.csv

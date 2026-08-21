@@ -1,0 +1,226 @@
+# LGPD Data Mapping Template
+
+## Purpose
+
+Complete inventory of personal data processing activities for LGPD Art. 37 compliance and governance integration.
+
+---
+
+## Data Mapping Structure
+
+```yaml
+data_mapping:
+  version: "1.0"
+  last_updated: "2026-08-18"
+  controller: ""
+  dpo: ""
+  
+  processing_activities:
+    - activity_id: "PA-001"
+      name: "Customer Onboarding"
+      description: "Collect and verify customer identity for account creation"
+      purpose: "Contract execution (Art. 7.V) + Legal obligation (Art. 7.II)"
+      legal_basis: "contract"
+      lawful_basis_detail: "Account creation terms + KYC regulations"
+      
+      data_categories:
+        - category: "identification"
+          fields: ["full_name", "cpf", "rg", "birth_date", "nationality"]
+          sensitivity: "high"
+          retention: "10 years after account closure"
+          legal_basis: "contract + legal_obligation"
+        
+        - category: "contact"
+          fields: ["email", "phone", "address"]
+          sensitivity: "medium"
+          retention: "10 years after account closure"
+          legal_basis: "contract"
+        
+        - category: "financial"
+          fields: ["income", "employment_info", "bank_account"]
+          sensitivity: "high"
+          retention: "10 years after account closure"
+          legal_basis: "contract + legal_obligation"
+      
+      data_subjects: ["customers", "prospects"]
+      recipients: ["credit_bureaus", "government_agencies", "payment_processors"]
+      international_transfers: []
+      retention_schedule: "10 years post-relationship + legal hold"
+      security_measures: ["encryption_at_rest", "encryption_in_transit", "access_control", "audit_logging"]
+      dpia_required: false
+      dpia_reference: ""
+      agcp_integration:
+        governance_domain: "customer_onboarding"
+        risk_tier: "high"
+        hitl_required: true
+        invariants: ["kyc_verification", "sanctions_screening"]
+        blink_radius: ["database_write", "api_credit_bureau"]
+      ledger_events: ["PROPOSAL_SUBMITTED", "GOVERNANCE_DECISION", "EXECUTION_AUTHORIZATION"]
+    
+    - activity_id: "PA-002"
+      name: "Marketing Communications"
+      description: "Send promotional emails and personalized offers"
+      purpose: "Legitimate interest (Art. 7.IX) + Consent (Art. 7.I)"
+      legal_basis: "legitimate_interest"
+      lawful_basis_detail: "Direct marketing to existing customers + opt-in consent"
+      
+      data_categories:
+        - category: "contact"
+          fields: ["email", "name", "preferences"]
+          sensitivity: "low"
+          retention: "Until opt-out + 2 years"
+          legal_basis: "legitimate_interest"
+        
+        - category: "behavioral"
+          fields: ["purchase_history", "browsing_history", "engagement_scores"]
+          sensitivity: "medium"
+          retention: "2 years"
+          legal_basis: "legitimate_interest"
+      
+      data_subjects: ["customers", "subscribers"]
+      recipients: ["email_service_provider", "analytics_platform"]
+      international_transfers:
+        - destination: "US"
+          mechanism: "standard_contractual_clauses"
+          scc_reference: "SCC-2024-001"
+          tia_reference: "TIA-2024-001"
+      retention_schedule: "Until opt-out + 2 years suppression"
+      security_measures: ["pseudonymization", "access_control", "opt-out_honoring"]
+      dpia_required: false
+      agcp_integration:
+        governance_domain: "marketing"
+        risk_tier: "medium"
+        hitl_required: false
+        invariants: ["opt_out_respected", "frequency_limits"]
+        blink_radius: ["api_email_provider"]
+      ledger_events: ["PROPOSAL_SUBMITTED", "GOVERNANCE_DECISION"]
+    
+    - activity_id: "PA-003"
+      name: "Fraud Detection & Prevention"
+      description: "Real-time transaction monitoring and anomaly detection"
+      purpose: "Legitimate interest (Art. 7.IX) + Legal obligation (Art. 7.II)"
+      legal_basis: "legitimate_interest"
+      lawful_basis_detail: "Fraud prevention + Central Bank regulations"
+      
+      data_categories:
+        - category: "financial"
+          fields: ["transaction_amount", "merchant", "location", "device_fingerprint", "velocity"]
+          sensitivity: "high"
+          retention: "5 years"
+          legal_basis: "legitimate_interest + legal_obligation"
+        
+        - category: "behavioral"
+          fields: ["typing_patterns", "mouse_movements", "session_data"]
+          sensitivity: "medium"
+          retention: "1 year"
+          legal_basis: "legitimate_interest"
+        
+        - category: "technical"
+          fields: ["ip_address", "user_agent", "geolocation"]
+          sensitivity: "medium"
+          retention: "1 year"
+          legal_basis: "legitimate_interest"
+      
+      data_subjects: ["customers", "transaction_parties"]
+      recipients: ["fraud_prevention_network", "law_enforcement"]
+      international_transfers: []
+      retention_schedule: "5 years + legal hold"
+      security_measures: ["encryption", "tokenization", "strict_access_control", "real_time_monitoring"]
+      dpia_required: true
+      dpia_reference: "DPIA-2024-003"
+      agcp_integration:
+        governance_domain: "fraud_prevention"
+        risk_tier: "high"
+        hitl_required: true
+        invariants: ["model_fairness", "false_positive_rate", "explainability"]
+        blink_radius: ["database_read", "model_inference", "alert_generation"]
+      ledger_events: ["PROPOSAL_SUBMITTED", "GOVERNANCE_DECISION", "EXECUTION_AUTHORIZATION", "HUMAN_ADJUDICATION"]
+    
+    - activity_id: "PA-004"
+      name: "HR & Employee Management"
+      description: "Employee records, payroll, benefits, performance"
+      purpose: "Contract execution (Art. 7.V) + Legal obligation (Art. 7.II)"
+      legal_basis: "contract"
+      lawful_basis_detail: "Employment contract + labor law compliance"
+      
+      data_categories:
+        - category: "identification"
+          fields: ["full_name", "cpf", "rg", "ctps", "pis", "birth_date"]
+          sensitivity: "high"
+          retention: "20 years post-employment + legal"
+          legal_basis: "contract + legal_obligation"
+        
+        - category: "financial"
+          fields: ["salary", "bank_account", "benefits", "tax_info"]
+          sensitivity: "high"
+          retention: "20 years post-employment + legal"
+          legal_basis: "contract + legal_obligation"
+        
+        - category: "health"
+          fields: ["medical_exams", "occupational_health", "accommodations"]
+          sensitivity: "high"
+          retention: "20 years post-employment + legal"
+          legal_basis: "legal_obligation + health_protection"
+        
+        - category: "employment"
+          fields: ["performance_reviews", "disciplinary", "promotions", "training"]
+          sensitivity: "medium"
+          retention: "20 years post-employment"
+          legal_basis: "contract"
+      
+      data_subjects: ["employees", "contractors", "former_employees"]
+      recipients: ["payroll_provider", "benefits_providers", "government_agencies", "unions"]
+      international_transfers: []
+      retention_schedule: "Per labor law + 20 years"
+      security_measures: ["encryption", "role_based_access", "audit_trail", "data_minimization"]
+      dpia_required: true
+      dpia_reference: "DPIA-2024-004"
+      agcp_integration:
+        governance_domain: "hr_management"
+        risk_tier: "high"
+        hitl_required: true
+        invariants: ["access_control", "data_minimization", "retention_compliance"]
+        blink_radius: ["database_write", "api_payroll", "api_government"]
+      ledger_events: ["PROPOSAL_SUBMITTED", "GOVERNANCE_DECISION", "EXECUTION_AUTHORIZATION"]
+```
+
+---
+
+## CSV Export Format
+
+```csv
+activity_id,name,description,purpose,legal_basis,lawful_basis_detail,data_category,field_name,sensitivity,retention,legal_basis_field,recipients,international_transfers,transfer_mechanism,retention_schedule,security_measures,dpia_required,dpia_reference,governance_domain,risk_tier,hitl_required,invariants,blink_radius,ledger_events
+PA-001,Customer Onboarding,"Collect and verify customer identity","Contract execution + Legal obligation","contract","Account creation terms + KYC regulations","identification","full_name","high","10 years post-closure","contract","credit_bureaus;government_agencies;payment_processors","","","10 years post-relationship + legal hold","encryption_at_rest;encryption_in_transit;access_control;audit_logging",false,"","customer_onboarding","high",true,"kyc_verification;sanctions_screening","database_write;api_credit_bureau","PROPOSAL_SUBMITTED;GOVERNANCE_DECISION;EXECUTION_AUTHORIZATION"
+PA-001,Customer Onboarding,"Collect and verify customer identity","Contract execution + Legal obligation","contract","Account creation terms + KYC regulations","identification","cpf","high","10 years post-closure","contract + legal_obligation","credit_bureaus;government_agencies;payment_processors","","","10 years post-relationship + legal hold","encryption_at_rest;encryption_in_transit;access_control;audit_logging",false,"","customer_onboarding","high",true,"kyc_verification;sanctions_screening","database_write;api_credit_bureau","PROPOSAL_SUBMITTED;GOVERNANCE_DECISION;EXECUTION_AUTHORIZATION"
+```
+
+---
+
+## AGCP Integration Fields
+
+| Field | Description | AGCP CR |
+|-------|-------------|---------|
+| `governance_domain` | AGCP governance domain for this activity | CR-007 |
+| `risk_tier` | Risk tier (critical/high/medium/low) | CR-003, CR-031 |
+| `hitl_required` | Whether HITL gate required | CR-002, CR-012-018 |
+| `invariants` | Hard invariants that must be satisfied | CR-003, CR-008 |
+| `blink_radius` | Credentials needed for this activity | CR-119, CR-120 |
+| `ledger_events` | Expected governance ledger events | CR-062, CR-063 |
+
+---
+
+## Verification
+
+```bash
+# Validate data mapping
+python3 -m agcp.lgpd mapping-validate --file data-mapping.yaml
+
+# Check completeness
+python3 -m agcp.lgpd mapping-completeness --controller organization
+
+# Export for ANPD
+python3 -m agcp.lgpd mapping-export --format csv --output anpd_records.csv
+
+# Sync with AGCP
+python3 -m agcp.lgpd mapping-sync --mapping data-mapping.yaml
+```

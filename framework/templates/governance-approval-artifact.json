@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://agcp.ai/schemas/governance-approval-artifact.json",
+  "title": "AGCP Governance Approval Artifact (DS-026)",
+  "type": "object",
+  "required": [
+    "governance_approval_artifact_id",
+    "artifact_version",
+    "record_type",
+    "proposal_id",
+    "approval_type",
+    "approver_id",
+    "approver_role",
+    "tenant_id",
+    "governance_domain_id",
+    "validity_period",
+    "quorum_context",
+    "provenance",
+    "approval_content",
+    "lifecycle_effect"
+  ],
+  "properties": {
+    "governance_approval_artifact_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "artifact_version": {
+      "type": "string",
+      "const": "2.0.8"
+    },
+    "record_type": {
+      "type": "string",
+      "const": "GOVERNANCE_APPROVAL_ARTIFACT"
+    },
+    "proposal_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "approval_type": {
+      "type": "string",
+      "enum": [
+        "HUMAN_ADJUDICATION",
+        "RISK_ACCEPTANCE",
+        "CANCELLATION",
+        "WITHDRAWAL",
+        "QUORUM_PARTICIPATION"
+      ]
+    },
+    "approver_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "approver_role": {
+      "type": "string",
+      "enum": [
+        "REVIEWER",
+        "AUTHORIZER",
+        "RISK_OWNER",
+        "EXECUTIVE",
+        "DPO",
+        "LEGAL"
+      ]
+    },
+    "tenant_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "governance_domain_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "validity_period": {
+      "type": "object",
+      "required": ["valid_from", "valid_until"],
+      "properties": {
+        "valid_from": { "type": "string", "format": "date-time" },
+        "valid_until": { "type": "string", "format": "date-time" }
+      }
+    },
+    "quorum_context": {
+      "type": "object",
+      "required": ["quorum_id", "required_signatures", "current_signatures", "quorum_met"],
+      "properties": {
+        "quorum_id": { "type": "string", "format": "uuid" },
+        "required_signatures": { "type": "integer", "minimum": 1 },
+        "current_signatures": { "type": "integer", "minimum": 0 },
+        "quorum_met": { "type": "boolean" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["signer", "kid", "alg", "signed_at", "nonce", "scope", "signature"],
+      "properties": {
+        "signer": { "type": "string", "format": "uuid" },
+        "kid": { "type": "string" },
+        "alg": { "type": "string", "const": "ES256" },
+        "signed_at": { "type": "string", "format": "date-time" },
+        "nonce": { "type": "string", "format": "base64" },
+        "scope": { "type": "string", "const": "GOVERNANCE_APPROVAL" },
+        "signature": { "type": "string", "format": "base64" }
+      }
+    },
+    "approval_content": {
+      "type": "object",
+      "required": ["decision"],
+      "properties": {
+        "decision": {
+          "type": "string",
+          "enum": ["APPROVE", "REJECT", "CONDITIONAL"]
+        },
+        "conditions": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "risk_acceptance": { "type": "boolean" },
+        "rationale": { "type": "string" }
+      }
+    },
+    "lifecycle_effect": {
+      "type": "object",
+      "required": ["transitions_to", "affects_proposal"],
+      "properties": {
+        "transitions_to": {
+          "type": "string",
+          "enum": ["AUTHORIZED", "REJECTED", "DEFERRED"]
+        },
+        "affects_proposal": { "type": "string", "format": "uuid" }
+      }
+    }
+  }
+}

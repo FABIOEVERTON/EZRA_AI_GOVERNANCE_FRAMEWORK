@@ -1,0 +1,6 @@
+SKILL lgpd-operational | S27 | cluster governanca
+DESC: LGPD operational procedures (legal basis, data subject rights, 72h incident response, cross-border, DPO) with runtime PII filter at commit boundary.
+MAPPING: Art.6→CR-036/037, Art.18→CR-062/064, Art.48→CR-053/054, Art.46→CR-119/121, Cross-border→CR-026/027/028
+RUNTIME: PII filter pre-execution + evidence integrity + incident response automation
+SOURCE: Lei 13.709/2018 + ANPD guidelines
+AGCP_REF: framework/agcp-reference/CR-requirements.csv

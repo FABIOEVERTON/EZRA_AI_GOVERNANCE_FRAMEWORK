@@ -1,0 +1,80 @@
+# Risk Assessment Template
+
+```yaml
+risk_assessment:
+  version: "1.0"
+  assessment_id: "RA-{{uuid}}"
+  date: "{{ISO8601}}"
+  assessor: ""
+  system_name: ""
+  system_version: ""
+  governance_domain: ""
+  
+  # EU AI Act Risk Classification
+  eu_ai_act:
+    risk_tier: "unacceptable|high|limited|minimal|gpai"
+    article_references: []
+    high_risk_category: ""  # if high: Annex III reference
+    conformity_assessment_route: "internal|notified_body"
+  
+  # NIST AI RMF Risk Identification
+  nist_rmf:
+    context:
+      intended_use: ""
+      deployment_context: ""
+      stakeholders: []
+      regulatory_requirements: []
+    
+    risks:
+      - risk_id: "RISK-001"
+        category: "bias|security|privacy|reliability|transparency|accountability"
+        description: ""
+        likelihood: "very_low|low|medium|high|very_high"
+        impact: "negligible|minor|moderate|major|severe"
+        risk_level: "very_low|low|medium|high|critical"
+        nist_subcategory: "MAP-1.4|MEASURE-1.3|MANAGE-1.1|etc"
+        agcp_cr: "CR-003,CR-031,CR-032,CR-033"
+        existing_controls: []
+        residual_risk: "low|medium|high|critical"
+        treatment: "avoid|mitigate|transfer|accept"
+        mitigation_plan: ""
+        owner: ""
+        review_date: "{{ISO8601}}"
+  
+  # Blink Radius (Damage Cards)
+  blink_radius:
+    credentials:
+      - name: ""
+        effect_kind: "read|write|delete|transfer|exec"
+        resources: []
+        irreversible: true/false
+        max_damage: ""
+        risk_score: "low|medium|high|critical"
+        rate_limit: ""
+        hitl_required: true/false
+        quorum: 0
+  
+  # LGPD Data Processing
+  lgpd:
+    processing_activities: []
+    legal_bases: []
+    data_subject_rights_procedures: true
+    incident_response_plan: true
+    cross_border_transfers: []
+    dpia_required: false
+    dpia_reference: ""
+  
+  # Overall Assessment
+  overall_risk_level: "low|medium|high|critical"
+  go_no_go: "go|no_go|conditional"
+  conditions: []
+  approval_required: true
+  approvers: []
+  
+  # AGCP Mapping
+  agcp_mapping:
+    target_conformance: "L4"
+    applicable_crs: []
+    gaps: []
+    evidence_references: []
+```

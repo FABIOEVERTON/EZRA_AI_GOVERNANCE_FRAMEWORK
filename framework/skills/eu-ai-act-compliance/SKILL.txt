@@ -1,0 +1,6 @@
+SKILL eu-ai-act-compliance | S25 | cluster governanca
+DESC: EU AI Act risk classification + conformity assessment + transparency mapped to AGCP L4 execution control. High-risk systems = mandatory commit-boundary enforcement.
+MAPPING: Prohibited→CR-003, High-risk→CR-019/020/119, GPAI→CR-062/064, Transparency→CR-010/086
+RUNTIME: logging (ledger) + HITL gates + PEP enforcement
+SOURCE: upstream/awesome-eu-ai-act + upstream/eu-ai-act-crosswalk
+AGCP_REF: framework/agcp-reference/CR-requirements.csv
