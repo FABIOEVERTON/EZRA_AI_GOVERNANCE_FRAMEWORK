@@ -1,0 +1,4 @@
+[tea]
+gates = ["risk", "design", "trace", "nfr", "review", "gate"]
+allowed_statuses = ["PASS", "CONCERNS", "FAIL", "WAIVED"]
+escalation_max_cycles = 3

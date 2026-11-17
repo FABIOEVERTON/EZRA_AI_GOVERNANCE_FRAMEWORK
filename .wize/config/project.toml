@@ -1,0 +1,7 @@
+[project]
+name = "EZRA_AI_GOVERNANCE_FRAMEWORK"
+owner = "FABIOEVERTON"
+lifecycle = "wize-dev-kit"
+phase = "triage"
+primary_language = "python"
+conformance_doc = "CONFORMANCE.md"
